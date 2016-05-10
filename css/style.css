@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	text-align:center; /*For IE6 Shenanigans*/
+}
+
+.content-wrap {
+ 	width: 960px;
+    margin: 0 auto;
+    text-align:left;
+}
+
+p {
+	font-size: 12px;
+	line-height: 1em;
+}
+h1 {
+	font-size:24px;
+}
+h2 {
+	font-size:20px;
+}
+h3 {
+	font-size:16px;
+}
+
+h1, h2, h3 {
+	padding-bottom: 30px;
+	font-weight: 100;
+}
+
+p, h1, h2, h3 {
+	font-family: sans-serif;
+
+}
+
+.header-wrapper{
+	height:500px;
+}
+
+.header {
+	position: relative;
+	margin-bottom:40px;
+	height:100%;
+	/*background: url('https://upload.wikimedia.org/wikipedia/commons/2/2a/Imperial_College_-_South_Kensington_Campus.jpg') no-repeat center center fixed ;*/
+	background: url('http://www.imperialcollege.info/blog/wp-content/uploads/2012/01/Queens-Tower-5.jpg') no-repeat center center fixed ;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	background-attachment: scroll;
+}
+
+.header .where{
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+	text-align: center;
+}
+.hidden {
+	display: none;
+}
+
+.custom-button {
+	padding:5px;
+	background-color: blue;
+	color: #ffffff;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 3px;
+	line-height: 0em;
+}
