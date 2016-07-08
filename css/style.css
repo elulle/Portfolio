@@ -46,12 +46,12 @@ p, h1, h2, h3 {
 	position: relative;
 	height:100%;
 	/*background: url('https://upload.wikimedia.org/wikipedia/commons/2/2a/Imperial_College_-_South_Kensington_Campus.jpg') no-repeat center center fixed ;*/
-	background: url('http://www.imperialcollege.info/blog/wp-content/uploads/2012/01/Queens-Tower-5.jpg') no-repeat center center fixed ;
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+	-webkit-background-size: cover !important;
+  	-moz-background-size: cover !important; 
+  	-o-background-size: cover !important;
+  	background-size: cover !important;
   	background-attachment: scroll;
+    background-position: center center;
   	color:#ffffff;
 }
 
@@ -69,7 +69,7 @@ p, h1, h2, h3 {
 
 .custom-button {
 	padding:20px 15px;
-	background-color: transparent;
+	background-color: rgba(0,0,0,0.5);
 	color: #ffffff;
 	display: inline-block;
 	cursor: pointer;
@@ -78,7 +78,7 @@ p, h1, h2, h3 {
 }
 
 .custom-button:hover{
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.7);
 }
 
 .custom-button p{
@@ -88,6 +88,10 @@ p, h1, h2, h3 {
 
 #location-check p {
 	font-size:24px;
+}
+#actual-info{
+	background-color: rgba(0,0,0,0.5);
+	padding: 20px;
 }
 #actual-location h1{
 	padding-bottom:18px;

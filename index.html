@@ -3,7 +3,10 @@
 		<title>elulle</title>
 		  <link rel="stylesheet" href="css/style.css">
 		  <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js" type="text/javascript"></script>
 		  <script src="js/initial.js"></script>
+		  <script src="js/gooogle.js"></script>
+
 
 	</head>
 	<body>
@@ -11,16 +14,17 @@
 			<div class="header">
 				<div class="where">
 					<div class='custom-button' id='location-check'>
-						<p>Where is Brad?</p>
+						<p>Where is Elina?</p>
 					</div>
-					<div class="hidden" id="actual-location">
-						<h1>Imperial College</h1>
+					<div id = "actual-info" class='hidden'>
+						<div id="actual-location"></div>
+						<div id="actual-text"></div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="map content-wrap section-margin">
-			<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:600px;width:980px;'><div id='gmap_canvas' style='height:600px;width:980px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://www.buyinstagramfollowersreviews.net/">buy instagram followers</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:6,center:new google.maps.LatLng(52.40105477851385,-0.8089106437499849),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(52.40105477851385,-0.8089106437499849)});infowindow = new google.maps.InfoWindow({content:'<strong>Looking for Brad</strong><br>London, United Kingdom<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+			<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:600px;width:980px;'><div id='gmap_canvas' style='height:600px;width:980px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://www.buyinstagramfollowersreviews.net/">buy instagram followers</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:6,center:new google.maps.LatLng(52.40105477851385,-0.8089106437499849),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(52.40105477851385,-0.8089106437499849)});infowindow = new google.maps.InfoWindow({content:'<strong>Elinas journey</strong><br>London, United Kingdom<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 		</div>
 		<div class="sponsor yellow section-margin">
 			<div class="content-wrap">
