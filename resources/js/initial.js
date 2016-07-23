@@ -32,25 +32,46 @@ $(document).ready(function(){
 			    // console.log(currentPic);
 			    // console.log(currentText);
 
-			    document.getElementById("actual-location").innerHTML = "<h1>"+currentLocation+"</h1>";
-			    $('.header').css('backgroundImage', 'url('+currentPic+')');
-			    document.getElementById("actual-text").innerHTML = "<p>"+currentText+"</p>";
+			    // document.getElementById("actual-location").innerHTML = "<h1>"+currentLocation+"</h1>";
+			    // $('.header').css('backgroundImage', 'url('+currentPic+')');
+			    // document.getElementById("actual-text").innerHTML = "<p>"+currentText+"</p>";
 			},
 
 			error: function(error){
 			  	console.log(error);
-			  	console.log("error");
 			}
 		});
+
+//send info to google form
+
+	  // function postContactToGoogle() {
+   //      var share = $('#share').val();
+   //      var advice = $('#advice').val();
+
+   //          $.ajax({
+   //              url: "https://docs.google.com/forms/d/e/1FAIpQLSdEoLefYBYuVuZGP1GbyCnO9tLvSQf-i1gBaCoOlir5mphv9Q/formResponse",
+   //              data: { "entry.1891396694": share, "entry.623392099": advice },
+   //              type: "POST",
+   //              dataType: "xml",
+   //              statusCode: {
+   //                  0: function () {
+   //                      window.location.replace("ThankYou.html");
+   //                  },
+   //                  200: function () {
+   //                      window.location.replace("ThankYou.html");
+   //                  }
+   //              }
+   //          });
+   //  }
 
 	$(".button-click-hide").click(function(){
 	    $(".button-click-hide").hide();
 	    $(".button-click-show").fadeIn();
 	});
 
-	$("#advice-submit").click(function(){ 
+	$("#ButtonSubmit").click(function(){ 
 	    $(".content-wrap").hide();
-	    $("#thank-you").show();
+	    $("#thank-you").fadeIn();
 	    // document.getElementById("landing-pg-img").src = "http://www.imagefully.com/wp-content/uploads/2015/05/Thank-You-For-Friend-On-His-Anniversary.jpg";
 	});
 
