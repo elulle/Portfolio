@@ -4,9 +4,11 @@
 	<img src='https://pixabay.com/static/uploads/photo/2013/11/28/10/36/road-220058_960_720.jpg' id='landing-pg-img'>
 	<div class="content-wrap middle">
 		<div class="custom-button button-click-hide">
-			<p style = "font-size:34px; line-height: 1em">Lets talk</p>
+			<p  class="lets-talk">Lets talk</p>
 		</div>
-		<form action="/contact" class="contact-form button-click-show hidden" name="advice">
+	</div>
+	<div class="content-wrap middle form hidden button-click-show">
+		<form action="/contact" class="contact-form" name="advice">
 			<div class="input-error hidden">
 				<p>Please fill in all fields</p>
 			</div>
