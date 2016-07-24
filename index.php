@@ -7,14 +7,18 @@
 			<p style = "font-size:34px; line-height: 1em">Lets talk</p>
 		</div>
 		<form action="/contact" class="contact-form button-click-show hidden" name="advice">
+			<div class="input-error hidden">
+				<p>Please fill in all fields</p>
+			</div>
 			<div class="response">&nbsp;</div>
-			<input type="text" name="name" id = "name" placeholder="Your name">
-			<textarea type="text" name="share" id = "share" placeholder="How can I share my travels with you?"></textarea>
-			<textarea type="text" name="advice" id="advice" placeholder="Any tips/advice? Or something fun to read?"></textarea>
-			<div id="ButtonSubmit" onclick="postContactToGoogle()" type="button" class="custom-button" style = "width:100%">
+			<input  type="text" name="name" id = "name" placeholder="Your name" required>
+			<textarea  type="text" name="share" id = "share" placeholder="How can I share my travels with you?" required></textarea>
+			<textarea type="text" name="advice" id="advice" placeholder="Any tips/advice? Or something fun to read?" required></textarea>
+			<div id="ButtonSubmit" onclick="postContactToGoogle()" type="submit" class="custom-button" style = "width:100%">
 				<p>Send</p>
 			</div>
-		<form>
+			<p style="width:100%; color: black; font-weight: 700; background-color: rgba(255,255,255,0.6);padding:15px; margin-top:10px;">There's a video on submission </p>
+		</form>
 	</div>
 	<div id='thank-you' class = 'hidden'>
 		<div>
@@ -38,12 +42,19 @@ function postContactToGoogle() {
     var share = $('#share').val();
     var advice = $('#advice').val();
 
-    $.ajax({
-        url: "https://docs.google.com/forms/d/e/1FAIpQLSdEoLefYBYuVuZGP1GbyCnO9tLvSQf-i1gBaCoOlir5mphv9Q/formResponse",
-        data: {"entry.1471486817": name, "entry.1891396694": share, "entry.623392099": advice },
-        type: "POST",
-        dataType: "xml"
-    });
+    if ((name !== "") && (share !== "") && (advice !== "")){
+    	$.ajax({
+	        url: "https://docs.google.com/forms/d/e/1FAIpQLSdEoLefYBYuVuZGP1GbyCnO9tLvSQf-i1gBaCoOlir5mphv9Q/formResponse",
+	        data: {"entry.1471486817": name, "entry.1891396694": share, "entry.623392099": advice },
+	        type: "POST",
+	        dataType: "xml"
+	    });
+
+	    $(".content-wrap").hide();
+	    $("#thank-you").fadeIn();
+    } else{
+    	$(".input-error").fadeIn();
+    }
 }
 </script>
 <script>
