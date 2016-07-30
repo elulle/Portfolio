@@ -54,9 +54,9 @@ a:hover{
 
 .content-wrap {
  	max-width: 980px;
-    width: 60%;
-    margin: 0 auto;
-    position: relative;
+  /*width: 60%;*/
+  margin: 0 auto;
+  /*position: relative;*/
 }
 .overlay{
 	position: absolute;
@@ -101,22 +101,27 @@ a:hover{
 .header {
 	position: relative;
 	height:100%;
-	/*background: url('https://upload.wikimedia.org/wikipedia/commons/2/2a/Imperial_College_-_South_Kensington_Campus.jpg') no-repeat center center fixed ;*/
+	background: url('https://pixabay.com/static/uploads/photo/2013/11/28/10/36/road-220058_960_720.jpg') no-repeat center center fixed ;
+  -webkit-transition: background 1.5s linear;
+  -moz-transition: background 1.5s linear;
+  -o-transition: background 1.5s linear;
+  -ms-transition: background 1.5s linear;
+  transition: background 1.5s linear;
 	-webkit-background-size: cover !important;
-  	-moz-background-size: cover !important; 
-  	-o-background-size: cover !important;
-  	background-size: cover !important;
-  	background-attachment: scroll;
-    background-position: center center;
-  	color:#ffffff;
+  -moz-background-size: cover !important; 
+  -o-background-size: cover !important;
+  background-size: cover !important;
+  background-attachment: scroll;
+   background-position: center center;
+  color:#ffffff;
 }
 
 .header .where{
 	position: absolute;
-    left: 0;
-    right: 0;
-    top: 50%;
-    transform: translate(0, -50%);
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
 	text-align: center;
 }
 .hidden {

@@ -4,10 +4,10 @@
 	<div class="header-wrapper section-margin">
 		<div class="header">
 			<div class="where">
-				<div class='custom-button button-click-hide'>
+				<div class='custom-button button-click-hide' id='revealLocation'>
 					<p>Where is Elina?</p>
 				</div>
-				<div class='hidden button-click-show'>
+				<div class='hidden button-click-show' id='actual-info'>
 					<div id="actual-location"></div>
 					<div id="actual-text"></div>
 				</div>

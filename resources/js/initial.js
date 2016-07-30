@@ -1,14 +1,14 @@
 $(document).ready(function(){
 
-	// window.googleDocCallback = function () { return true; };
-
-	function postContactToGoogle() {
-		var myLocations = [],
-			myPic = [], 
-			myText = [],
-			myDatabase = [],
-			currentLocation = '';
-			
+	var revealLocation = document.getElementById('revealLocation');
+	if(revealLocation !== null){
+		revealLocation.onclick = function() {
+			var myLocations = [],
+				myPic = [], 
+				myText = [],
+				myDatabase = [],
+				currentLocation = '';
+				
 			$.ajax({
 				type: "GET",
 				url: "http://cors.io/?u=https://docs.google.com/spreadsheets/d/1OPUMaE5qEN0mXxJ-U4UPVpkaAMh5oAJrbzYE6t5Ir1Y/pub?output=csv",
@@ -20,18 +20,10 @@ $(document).ready(function(){
 					myLocations = myDatabase[0].split(",");
 					myPic = myDatabase[1].split(",");
 					myText = myDatabase[2].split(",");
-
-				    // console.log(myLocations);
-				    // console.log(myPic);
-				    // console.log(myText);
-
+					
 				    currentLocation = myLocations[myLocations.length - 1];
 				    currentPic = myPic[myPic.length - 1];
 				    currentText = myText[myText.length - 1];
-
-				    // console.log(currentLocation);
-				    // console.log(currentPic);
-				    // console.log(currentText);
 
 				    document.getElementById("actual-location").innerHTML = "<h1>"+currentLocation+"</h1>";
 				    $('.header').css('backgroundImage', 'url('+currentPic+')');
@@ -43,6 +35,30 @@ $(document).ready(function(){
 				}
 			});
 		}
+	}
+
+	var adviceSendInfo = document.getElementById('adviceSendInfo');
+	if(adviceSendInfo !== null){
+		adviceSendInfo.onclick = function() {
+		    var name = $('#name').val();
+		    var share = $('#share').val();
+		    var advice = $('#advice').val();
+
+		    if ((name !== "") && (share !== "") && (advice !== "")){
+		    	$.ajax({
+			        url: "https://docs.google.com/forms/d/e/1FAIpQLSdEoLefYBYuVuZGP1GbyCnO9tLvSQf-i1gBaCoOlir5mphv9Q/formResponse",
+			        data: {"entry.1471486817": name, "entry.1891396694": share, "entry.623392099": advice },
+			        type: "POST",
+			        dataType: "xml"
+			    });
+
+			    $(".content-wrap").hide();
+			    $("#thank-you").fadeIn();
+		    } else{
+		    	$(".input-error").fadeIn();
+		    }
+		}
+	}
 
 	$(".button-click-hide").click(function(){
 	    $(".button-click-hide").hide();
