@@ -1,7 +1,7 @@
 <?php include('header.php') ?>
 
 <body>
-	<img src='https://pixabay.com/static/uploads/photo/2013/11/28/10/36/road-220058_960_720.jpg' id='landing-pg-img'>
+	<img src='http://hqpictures.net/wp-content/uploads/2015/08/Phi-Phi-Island-Pictures.jpg' id='landing-pg-img'>
 	<div class="content-wrap middle">
 		<div class="custom-button button-click-hide">
 			<p  class="lets-talk">Lets talk</p>

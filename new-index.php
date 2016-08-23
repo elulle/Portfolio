@@ -1,5 +1,5 @@
 <?php include('header.php') ?>
-
+<!doctype html>
 <body>
 	<div class="header-wrapper section-margin">
 		<div class="header">
@@ -21,19 +21,21 @@
 	</div>
 	<div class="sponsor yellow section-margin">
 		<div class="content-wrap">
-			<div class="overlay">
+			<div class="overlay" style="display:none">
 				<div class="comming-soon">
 					<h1>Comming soon</h1>
 				</div>
 			</div>
 			<h1>My thoughts</h1>
 			<div class="circle">
-				<img src="https://www.filepicker.io/api/file/fAsvfgszRSeVYszd2Mwe">
+				<div class="img-wrapper">
+					<img src="resources/img/riga.jpg">
+				</div>
 				<h3>Trip 1</h3>
 				<p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos</p>
 			</div>
 			<div class="circle">
-				<img src="https://www.filepicker.io/api/file/fAsvfgszRSeVYszd2Mwe">
+				<img src="resources/img/test.jpg">
 				<h3>Trip 2</h3>
 				<p> Et harum quidem rerum facilis est et expedita distinctio.</p>
 			</div>
@@ -41,6 +43,66 @@
 				<img src="https://www.filepicker.io/api/file/fAsvfgszRSeVYszd2Mwe">
 				<h3>Trip 3</h3>
 				<p>rum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+			</div>
+		</div>
+	</div>
+	<div class="section-margin">
+		<div class="content-wrap">
+			<h1>My travel buddies</h1>
+			<div class="circle who">
+				<div class="image">
+					<img src="resources/img/riga.jpg">
+					<div class="info-wrapper">
+						<div class="info">
+							<h2>Pritika</h2>
+							<h3>India</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="circle who">
+				<div class="image">
+					<img src="resources/img/test.jpg">
+					<div class="info-wrapper">
+						<div class="info">
+							<h2>Alex</h2>
+							<h3>India</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="circle who">
+				<div class="image">
+					<img src="resources/img/riga.jpg">
+					<div class="info-wrapper">
+						<div class="info">
+							<h2>Jamie</h2>
+							<h3>Thailand</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="circle who">
+				<div class="image">
+					<img src="resources/img/test.jpg">
+					<div class="info-wrapper">
+						<div class="info-long ">
+							<h2>Howser</h2>
+							<h3>Thailand, Malaysia,<br> Singapore</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="circle who">
+				<div class="image">
+					<img src="resources/img/riga.jpg">
+					<div class="info-wrapper">
+						<div class="info">
+							<h2>Chris</h2>
+							<h3>Malaysia, Singapore</h3>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

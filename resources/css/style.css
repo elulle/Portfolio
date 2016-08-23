@@ -101,7 +101,7 @@ a:hover{
 .header {
 	position: relative;
 	height:100%;
-	background: url('https://pixabay.com/static/uploads/photo/2013/11/28/10/36/road-220058_960_720.jpg') no-repeat center center fixed ;
+	background: url('../img/palm.jpg') no-repeat center center fixed ;
   -webkit-transition: background 1.5s linear;
   -moz-transition: background 1.5s linear;
   -o-transition: background 1.5s linear;
@@ -162,6 +162,18 @@ a:hover{
 .section-margin{
 	margin-bottom: 50px;
 }
+.bt-mrg-50{
+  margin-bottom: 50px;
+}
+.top-mrg-50{
+  margin-top:50px;
+}
+.bt-pd-50{
+  padding-bottom:50px;
+}
+.top-pd-50{
+  padding-top:50px;
+}
 
 .top-border{
 	border-top: 1px solid #dce0e0;
@@ -192,6 +204,9 @@ a:hover{
 	background-color: #4d4d4d;
 	padding:20px;
 	margin:0;
+  /*position: absolute;
+  bottom: 0;
+  width: 100%;*/
 }
 
 .footer .content-wrap{
@@ -298,10 +313,45 @@ img#landing-pg-img{    min-height: 100%;
 	line-height: 1em
 }
 
+form .custom-button{
+  padding:20px 0px;
+}
+
+.circle.who{
+  position: relative;
+}
+
+.circle.who .image img{
+  margin:0px;
+  width:200px;
+  height: 200px;
+}
+
+.circle.who .image .info-wrapper{
+  display: none;
+  position: absolute;
+  top: 0px;
+  background-color: rgba(0,0,0,0.4);
+  color: #fff;
+  height: 200px;
+  width:200px;
+  border-radius:50%;
+}
+
+.circle.who .image .info-wrapper .info{
+  top: 26%;
+  position: relative;
+}
+
+.circle.who .image .info-wrapper .info-long{
+  top: 16%;
+  position: relative;
+}
+
 /*Media quary*/
 @media only screen and (max-width: 769px) {
   .content-wrap {
-  	width:80%;
+    width:80%;
   }
   .content-wrap.form {
     padding-right: 30px;
@@ -309,20 +359,20 @@ img#landing-pg-img{    min-height: 100%;
   }
   .contact-form textarea,
   .contact-form input {
-  	font-size:22px;
+    font-size:22px;
   }
   p {
-  	font-size: 20px !important;
+    font-size: 20px !important;
   }
   .custom-button .lets-talk{
-  	font-size:66px !important;
+    font-size:66px !important;
   }
   .form.middle{
-  	position: relative;
+    position: relative;
   }
   #thank-you{
-  	width:80%;
-  	left:5%;
-  	margin-bottom: 30px;
+    width:80%;
+    left:5%;
+    margin-bottom: 30px;
   }
 }
