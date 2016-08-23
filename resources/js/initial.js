@@ -7,7 +7,6 @@ $(document).ready(function(){
 
 	//get data from google spreadsheet
 	var revealLocation = document.getElementById('revealLocation');
-	console.log(revealLocation);
 	if(revealLocation !== null){
 		revealLocation.onclick = function() {
 			var myLocations = [],
@@ -75,12 +74,12 @@ $(document).ready(function(){
 		    var name = $('#name').val();
 		    var email = $('#email').val();
 		    var wise = $('#wise').val();
-		    var bug = $('#bug').val();
+		    var bugs = $('#bugs').val();
 
-		    if ((name !== "") && (share !== "") && (advice !== "")){
+		    if ((name !== "") && (email !== "") && (wise !== "")&& (bugs !== "")){
 		    	$.ajax({
-			        url: "googlesheet",
-			        data: {"entry": name, "entry": email, "entry": wise, "bug": bug },
+			        url: "https://docs.google.com/forms/d/e/1FAIpQLSfGvo3uuUcAPrIFShEWxBJjOqpb1cbazLhgHD-nynqEnwjOAQ/formResponse",
+			        data: {"entry.2081074650": name, "entry.2048355376": email, "entry.210717829": wise, "entry.1723632685": bugs },
 			        type: "POST",
 			        dataType: "xml"
 			    });

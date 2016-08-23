@@ -1,7 +1,7 @@
 <?php include('header.php') ?>
 
 <body>
-	<img src='https://pixabay.com/static/uploads/photo/2013/11/28/10/36/road-220058_960_720.jpg' id='landing-pg-img'>
+	<img src='http://hqpictures.net/wp-content/uploads/2015/08/Phi-Phi-Island-Pictures.jpg' id='landing-pg-img'>
 	<div class="content-wrap middle">
 		<div class="custom-button button-click-hide">
 			<p  class="lets-talk">Lets talk</p>
@@ -34,6 +34,66 @@
 			</div>
 			<p>23/07/2016, Latvia</p>
 			<p> Keep an eye on this site, I will be updating my travels soon =] </p>
+		</div>
+	</div>
+	<div class="section-margin">
+		<div class="content-wrap">
+			<h1>My travel buddies</h1>
+			<div class="circle who">
+				<div class="image">
+					<img src="resources/img/riga.jpg">
+					<div class="info-wrapper">
+						<div class="info">
+							<h2>Pritika</h2>
+							<h3>India</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="circle who">
+				<div class="image">
+					<img src="resources/img/test.jpg">
+					<div class="info-wrapper">
+						<div class="info">
+							<h2>Alex</h2>
+							<h3>India</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="circle who">
+				<div class="image">
+					<img src="resources/img/riga.jpg">
+					<div class="info-wrapper">
+						<div class="info">
+							<h2>Jamie</h2>
+							<h3>Thailand</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="circle who">
+				<div class="image">
+					<img src="resources/img/test.jpg">
+					<div class="info-wrapper">
+						<div class="info-long ">
+							<h2>Howser</h2>
+							<h3>Thailand, Malaysia,<br> Singapore</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="circle who">
+				<div class="image">
+					<img src="resources/img/riga.jpg">
+					<div class="info-wrapper">
+						<div class="info">
+							<h2>Chris</h2>
+							<h3>Malaysia, Singapore</h3>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>

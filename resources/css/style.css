@@ -204,13 +204,14 @@ a:hover{
 	background-color: #4d4d4d;
 	padding:20px;
 	margin:0;
-  /*position: absolute;
+/*  position: absolute;
   bottom: 0;
   width: 100%;*/
 }
 
 .footer .content-wrap{
 	margin-bottom:0;
+  display: block !important;
 }
 
 .footer p,
@@ -275,6 +276,12 @@ img#landing-pg-img{    min-height: 100%;
     font-size: 1.6rem;
 }
 
+.contact #thank-you{
+  position: relative;
+  width: 100%;
+  left:0%;
+}
+
 #thank-you{
 	border-radius: 4px;
 	background-color: #FFFACD;
@@ -284,6 +291,14 @@ img#landing-pg-img{    min-height: 100%;
 	left:28%;
 	top:10%;
 	padding:20px;
+}
+
+#thank-you a{
+  /*color:#4d4d4d;*/
+}
+
+#thank-you a:hover{
+  color:#4d4d4d;
 }
 .videowrapper {
     float: none;
