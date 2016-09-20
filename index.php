@@ -1,8 +1,8 @@
-<?php include('header.php') ?>
+<?php include('header.php') ?> 
 <!doctype html>
 <body>
 	<div class="header-wrapper section-margin">
-		<div class="header">
+		<div class="header" id="palm">
 			<div class="where">
 				<div class='custom-button button-click-hide' id='revealLocation'>
 					<p>Where is Elina?</p>
@@ -15,34 +15,65 @@
 		</div>
 	</div>
 	<div class="map content-wrap section-margin google-maps">
-
 		<iframe src="https://www.google.com/maps/d/embed?mid=1zxh1CqOZ9lJNjOwRTC9ZZ2yvaDg" width="980" height="600"></iframe>
-		<!-- <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:600px;width:980px;'><div id='gmap_canvas' style='height:600px;width:980px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://www.buyinstagramfollowersreviews.net/">buy instagram followers</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:6,center:new google.maps.LatLng(52.40105477851385,-0.8089106437499849),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(52.40105477851385,-0.8089106437499849)});infowindow = new google.maps.InfoWindow({content:'<strong>Elinas journey</strong><br>London, United Kingdom<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script> -->
+	</div>
+	<div class="hidden">
+		<h1>Travel Blog</h1>
+		<h2>South East Asia Back packers Travel Blog</h2>
+		<h3>This is my Journey through South East Asia; India, Thailand, Malaysia, Borneo, Singapore, Brunei, Philippines, Vietnam, Cambodia, Laos, Australia, New Zeland</h3>
+		<h1>Travel tips</h1>
+		<h2>Transport / transportation in South East Asia</h2>
+		<h2>Accomadation / home stay / hostels in South East Asia</h2>
+		<h2>Best tourist attractions in South East Asia </h2>
+		<h2>Experience the Locals in South East Asia </h2>
 	</div>
 	<div class="sponsor yellow section-margin">
 		<div class="content-wrap">
-			<div class="overlay">
+			<!-- <div class="overlay">
 				<div class="comming-soon">
 					<h1>Coming soon</h1>
 				</div>
-			</div>
-			<h1>My thoughts</h1>
-			<div class="circle">
-				<div class="img-wrapper">
-					<img src="resources/img/riga.jpg">
+			</div> -->
+			<h1>My blogs</h1>
+			<div class="circle-img">
+				<div class="circle">
+					<a href="blog_template.php">
+						<img src="resources/img/first.jpg">
+					</a>
 				</div>
-				<h3>Trip 1</h3>
-				<p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos</p>
+				<div class="circle disable">
+					<!-- <a href="#"> -->
+						<h2>Comming Soon</h2>
+						<img src="resources/img/riga.jpg">
+					<!-- </a> -->
+				</div>
+				<div class="circle disable">
+					<!-- <a href="#"> -->
+						<h2>Comming Soon</h2>
+						<img src="resources/img/test.jpg">
+					<!-- </a> -->
+				</div>
 			</div>
-			<div class="circle">
-				<img src="resources/img/test.jpg">
-				<h3>Trip 2</h3>
-				<p> Et harum quidem rerum facilis est et expedita distinctio.</p>
-			</div>
-			<div class="circle">
-				<img src="https://www.filepicker.io/api/file/fAsvfgszRSeVYszd2Mwe">
-				<h3>Trip 3</h3>
-				<p>rum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+			<div class="three-wrapper">
+				<div class="three-text click">
+					<a href="blog_template.php"> 
+						<h3>My First Blog</h3>
+						<p>I'm not much of a writer. I don't really share much about my holidays / travels apart from sharing an album or two on Facebook.</p>
+					</a>
+				</div>
+				<div class="three-text">
+					<!-- <a href="#"> -->
+						<h3>Europe</h3>
+						<!-- <p></p> -->
+					<!-- </a> -->
+				</div>
+				<div class="three-text">
+					<!-- <a href="#"> -->
+						<h3>India</h3>
+						<!-- <p></p> -->
+					<!-- </a> -->
+
+				</div>
 			</div>
 		</div>
 	</div>

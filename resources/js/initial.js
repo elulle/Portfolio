@@ -33,6 +33,9 @@ $(document).ready(function(){
 
 					currentLocation = 'Kuching - Malaysia';
 				    currentPic ='http://images-resrc.staticlp.com/C=AR1200x630/S=W1200,U/O=85//media.lonelyplanet.com/a/g/hi/t/71f5f8232e28908fee31a8abd7766f33-top-things-to-do-in-kuching.jpg';
+				    
+					// currentLocation = 'Miri - Malaysia';
+				 //    currentPic ='https://www.propertyhunter.com.my/upload/13111116455910163071_-_Copy.JPG';
 				    currentText = '';
 
 				    document.getElementById("actual-location").innerHTML = "<h1>"+currentLocation+"</h1>";

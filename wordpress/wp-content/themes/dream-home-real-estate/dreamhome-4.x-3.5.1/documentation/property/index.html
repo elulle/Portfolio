@@ -1,0 +1,2348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>VicTheme Property Premium Theme</title>
+    <meta charset="utf8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="VicTheme Property Premium Theme Documentation"/>
+    <meta name="author" content="support@victheme.com"/>
+    <link type="text/css" href="assets/dark_theme/css/production.min.css" media="all" rel="stylesheet"/>
+    <link type="text/css" href="assets/favicon/favicon.ico" media="all" rel="shortcut icon"/>
+    <script type="text/javascript" src="assets/dark_theme/js/production.min.js"></script>
+</head>
+<body>
+<header id="main-header" class="navbar navbar-inverse navbar-fixed-top" role="banner">
+    <div class="container">
+        <div class="row">
+            <div id="top-logo" class="col-xs-6 col-sm-6 col-md-2 col-lg-2"><img
+                    src="assets/dark_theme/css/images/logo.png"/></div>
+            <div id="top-navigation" class="hidden-xs hidden-sm col-md-6 col-lg-6"></div>
+            <h3 id="top-version" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">VicTheme Property
+                <small>4.x-1.1.1</small>
+            </h3>
+        </div>
+    </div>
+</header>
+<div id="main-content">
+<div class="container">
+<div class="equalheightRow row">
+<div id="sidebar" class="items col-xs-12 col-sm-4 col-md-3 col-lg-3,">
+    <ul class="nav nav-stacked nav-pills hidden-xs hidden-sd">
+        <li><a href="#install--infiles">How To Install</a>
+            <ul class="nav nav-stacked nav-pills">
+                <li><a href="#install--infiles">Plugin Files</a></li>
+                <li><a href="#install--ininstall">Installing Plugin</a></li>
+            </ul>
+        </li>
+        <li><a href="#customize--cftypes">Configuration</a>
+            <ul class="nav nav-stacked nav-pills">
+                <li><a href="#customize--cftypes">Property Type</a></li>
+                <li><a href="#customize--cffields">Property Fields</a></li>
+                <li><a href="#customize--cfattributes">Property Attributes</a></li>
+                <li><a href="#customize--cfconfiguration">Property Configuration</a></li>
+            </ul>
+        </li>
+        <li><a href="#widgets--wgloop">Widgets</a>
+            <ul class="nav nav-stacked nav-pills">
+                <li><a href="#widgets--wgloop">Property Loop Listing</a></li>
+                <li><a href="#widgets--wgmap">Property Maps</a></li>
+                <li><a href="#widgets--wgmetro">Metro Style Loop</a></li>
+                <li><a href="#widgets--wgrecent">Property Recent List</a></li>
+                <li><a href="#widgets--wgsearch">Property Search</a></li>
+            </ul>
+        </li>
+        <li><a href="#shortcodes--scattributes">Shortcodes</a>
+            <ul class="nav nav-stacked nav-pills">
+                <li><a href="#shortcodes--scattributes">Property Attributes</a></li>
+                <li><a href="#shortcodes--scfields">Property Fields</a></li>
+                <li><a href="#shortcodes--scloop">Property Style Loop</a></li>
+                <li><a href="#shortcodes--scmap">Property Maps</a></li>
+                <li><a href="#shortcodes--scmetro">Property Metro Style Loop</a></li>
+                <li><a href="#shortcodes--scsearch">Property Search</a></li>
+                <li><a href="#shortcodes--sctype">Property Type</a></li>
+            </ul>
+        </li>
+        <li><a href="#vc--vcattributes">Visual Composer</a>
+            <ul class="nav nav-stacked nav-pills">
+                <li><a href="#vc--vcattributes">Property Attributes</a></li>
+                <li><a href="#vc--vcfields">Property Fields</a></li>
+                <li><a href="#vc--vcloop">Property Listing</a></li>
+                <li><a href="#vc--vcmap">Property Maps</a></li>
+                <li><a href="#vc--vcmetro">Property Metro</a></li>
+                <li><a href="#vc--vcsearch">Property Search</a></li>
+                <li><a href="#vc--vctype">Property Type</a></li>
+            </ul>
+        </li>
+        <li><a href="#developer--dffield">Developer Guide</a>
+            <ul class="nav nav-stacked nav-pills">
+                <li><a href="#developer--dffield">Field System</a></li>
+                <li><a href="#developer--dfrender">Rendering System</a></li>
+                <li><a href="#developer--dftemplate">Templating System</a></li>
+            </ul>
+        </li>
+        <li></li>
+        <li><a href="#Credit">Credits</a></li>
+    </ul>
+</div>
+<div id="content" class="items col-xs-12 col-sm-9 col-md-9 col-lg-9">
+<div id="install--infiles" class="section"><h3 class="separator">Plugin Files</h3>
+
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Check File Integrity</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/file.png"/></div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Check The Downloaded File</h4>Please check that the downloaded archive
+                    file must contain the same file as the image above and not corrupted.
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Corrupted File</h4>If you have missing files or corrupted file, please
+                    redownload them again and if the problem persist,
+                    please contact our <a href="mailto:support@victheme.com">our support team</a> for further
+                    assistance.
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Bundled with theme</h4>If this plugin is bundled with themes, you can
+                    skip this step and check on the theme documentation on how to install the plugin properly.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="install--ininstall" class="section"><h3 class="separator">Installing Plugin</h3>
+
+    <div class="alert alert-success"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+        <div class="text-with-icon">This plugin should be installed as a normal WordPress would using <strong>WordPress
+            Plugin Uploader.</strong></div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">WordPress Uploader </h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/wpupload.jpg"/></div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Upload Form</h4>Visit the uploader form in your site admin :
+                    http://example.com/wp-admin/theme-install.php?tab=upload to get WordPress plugin uploader form.
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>VicTheme Core</h4>Upload the victheme_core.zip first if you don't have
+                    VicTheme Core Plugin installed on your server as the maps plugin won't work without it.
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>VicTheme Property</h4>Upload the victheme_property.zip to install the
+                    maps plugin.
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Bundled with theme</h4>If this plugin is bundled with themes, you can
+                    skip this step and check on the theme documentation on how to install the plugin properly.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="customize--cftypes" class="section"><h3 class="separator">Property Type</h3>
+
+    <div class="alert alert-success"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+        <div class="text-with-icon"><strong>Property Types</strong> is the main entity for bundling together different
+            <strong>property fields</strong>
+            and <strong>property attributes</strong>. Different property types can have different set of property fields
+            and property attributes attached to it
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Check File Integrity</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/property-type.png"/></div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Build Sequence</h4>It is recommended to add and properly define the
+                    <strong>Property Attributes</strong> first before attempting to create a Property Types,
+                    this way all the Property Attributes will be available on the Property Types configuration form.
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Deleting Types</h4>Deleting a property types that has property post
+                    content attached to it is prohibited, You must delete all the related property post
+                    first before the related property types able to be deleted. This is protected this way to prevent
+                    property post missing type and broke
+                    the plugin initialization.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Edit Form - Settings</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/property-edit-settings.png"/></div>
+        </div>
+        <table class="form-table table table-striped">
+            <thead class="table-header">
+            <tr>
+                <th>Field</th>
+                <th>Value</th>
+                <th>Description</th>
+            </tr>
+            </thead>
+            <tbody class="table-rows">
+            <tr>
+                <td>Name</td>
+                <td>string</td>
+                <td>The Machine name for this property type, The actual Taxonomy name is not related to this name field
+                    as the
+                    taxonomy term will be created with generated unique id.
+                </td>
+            </tr>
+            <tr>
+                <td>Display Label</td>
+                <td>string</td>
+                <td>The display label for this property type, the actual label rendered at the front end will depends on
+                    how the
+                    theme rendering the property, the default method will take the value from this field.
+                </td>
+            </tr>
+            <tr>
+                <td>Display Icon</td>
+                <td>icon</td>
+                <td>The icon that will be displayed on front end when rendering the property type, theme can also choose
+                    to disable
+                    the icon rendering.
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Edit Form - Attributes</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/property-edit-attributes.png"/></div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Attributes Settings</h4>The property types will retrieve the settings
+                    for each attributes to their <strong>Property Attributes</strong> settings. You
+                    can change each of the attributes settings via the attributes setting form.
+                </div>
+            </div>
+        </div>
+        <table class="form-table table table-striped">
+            <thead class="table-header">
+            <tr>
+                <th>Field</th>
+                <th>Value</th>
+                <th>Description</th>
+            </tr>
+            </thead>
+            <tbody class="table-rows">
+            <tr>
+                <td>attributes</td>
+                <td>string</td>
+                <td>Choose single or multiple attributes (hold ctrl + click) to attach multiple property attributes into
+                    this property type
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Edit Form - Fields</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/property-edit-fields.png"/></div>
+        </div>
+        <table class="form-table table table-striped">
+            <thead class="table-header">
+            <tr>
+                <th>Field</th>
+                <th>Value</th>
+                <th>Description</th>
+            </tr>
+            </thead>
+            <tbody class="table-rows">
+            <tr>
+                <td>checkbox</td>
+                <td>check/uncheck</td>
+                <td>Disable or enable the property field for this property type, the settings can be changed for each
+                    property type differently.
+                </td>
+            </tr>
+            <tr>
+                <td>settings</td>
+                <td>check/uncheck</td>
+                <td>enable or disable each fields settings per property type. each field may have different settings
+                    such as for determining element visibility.
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Edit Form - Maps</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/property-edit-maps.png"/></div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>VicTheme Maps</h4>this settings field will only visible if you install
+                    and enable the VicTheme Maps plugin.
+                </div>
+            </div>
+        </div>
+        <table class="form-table table table-striped">
+            <thead class="table-header">
+            <tr>
+                <th>Field</th>
+                <th>Value</th>
+                <th>Description</th>
+            </tr>
+            </thead>
+            <tbody class="table-rows">
+            <tr>
+                <td>uploader</td>
+                <td>file</td>
+                <td>Upload a custom image to act as the property type maps marker, this setting can be changed for each
+                    property type
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div id="customize--cffields" class="section"><h3 class="separator">Property Fields</h3>
+
+    <div class="alert alert-success"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+        <div class="text-with-icon">Property Fields is a static type of property entity, unlike the property attributes
+            where you can create one via GUI, Property Field can only be created and registered programmatically via
+            coding.
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Manage Form</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/property-field.png"/></div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Creating a new field</h4>Field can only be registered programmatically
+                    via PHP code, refer to the developer section on how to register a new field.
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Additional Settings</h4>Some Property Field has additional settings that
+                    can be configured via the settings links found in the field table listing, most of
+                    the settings involves attaching taxonomy terms into the Property Fields.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="customize--cfattributes" class="section"><h3 class="separator">Property Attributes</h3>
+
+    <div class="alert alert-success"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+        <div class="text-with-icon">Property Attributes is a type of property entity that can be registered and created
+            via GUI,
+            the purpose of a property attributes is to extend property type with a new customizable field created by
+            user.
+            You can also share a single Property Attribute with multiple Property Types.
+            All the property attributes data is stored as a WordPress taxonomy term.
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Manage Form</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/property-attribute.png"/></div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Element</h4>The element section defines on what kind of form element
+                    should be shown to user for a particular property attributes
+                    when they are entering the property data, a select field will act as a normal category taxonomy
+                    terms and user is not allowed
+                    to enter new terms, a textfield will act similar to tag where user can enter new terms, a
+                    hierarchical select is for terms with
+                    parent and children where user will select the last child of a certain terms.
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Changing Element</h4>When a property attributes has data (post) related
+                    to it, it is not allowed to change the element type, it is recommended
+                    to plan ahead before assigning the type of element.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Edit Form - Settings Panel</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/property-attributes-popup-setting.png"/></div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Name</h4>The human readable name for the property attributes, this will
+                    be used mainly for the backend management form and post edit form only.
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Slug</h4>The slug name for the property attributes taxonomy, it is
+                    recommended to use unique name and follow the Wordpress Taxonomy Slug naming convention,
+                    this will also be used for the url when using permalinks.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Edit Form - Display Panel</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/property-attributes-popup-display.png"/></div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Searchable</h4>Mark if this attributes is searchable, this settings will
+                    only be honored when using the plugin search form, other plugin or standard Wordpress search
+                    form might not honor this feature since the property attributes is actually a taxonomy terms which
+                    by default can be searched using WordPress search form
+                    or other plugin search form
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Display Label</h4>When a theme is calling the plugin rendering function,
+                    the display label will be used as the property attributes label text.
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Display Icon</h4>The icon used when a theme is calling the plugin
+                    rendering function for this attributes.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Edit Form - Metabox Panel</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/property-attributes-popup-metabox.png"/></div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Element</h4>The type of form element should the attribute use when in
+                    the post edit form, When an attributes has post attached to it, it is not allowed
+                    to change the element type.
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Metabox Display Label</h4>The label displayed in the post edit form for
+                    this property attributes form field, if this is empty then the property setting name value will be
+                    used
+                    instead.
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Metabox Description</h4>The description used in the post edit form for
+                    this property attributes form field, this is useful to let the property agents understand what to
+                    fill
+                    for this property attributes.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="customize--cfconfiguration" class="section"><h3 class="separator">Property Configuration</h3>
+
+    <div class="alert alert-success"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+        <div class="text-with-icon">The configuration form is the global configuration for the property plugin,
+            some theme will override this configuration form fields or data entry to match the theme settings.
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Gallery</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/fotorama.png"/></div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Gallery</h4>Property Gallery is using Fotorama javascript to build the
+                    gallery type of property images used by the property image field.
+                    for more information regarding the valid options that can be passed to the javascript, please
+                    consult <a href="fotorama.io">Fotorama Website</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Media</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/media.png"/></div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Media Sizes</h4>Configure the media size for the property images, these
+                    configuration will be passed to Wordpress image size settings
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Teaser</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/teaser.png"/></div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Isotope</h4>Use isotope to layout the property teaser grid, the default
+                    mode is fitRows with equal height enabled.
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Ajax</h4>Enable or disable the ajax feature for the property loop
+                    element, disabling this will force all pagination, filter and search filter to use page refresh when
+                    changing the data.
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Pager</h4>Enable or disable the ajax feature for the property loop
+                    element, disabling this will force all pagination, filter and search filter to use page refresh when
+                    changing the data.
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Template</h4>define what kind of template should be used to format the
+                    teasers element, some theme may alter these and only show the template mode that they supports.
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Grids</h4>Define the grid size for each individual teaser element, some
+                    template mode like <strong>list mode</strong> will not honor this settings and always fallback to
+                    full width (12 columns).
+                    the Grid sizing will use standard bootstrap grid sizing.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Maps</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/maps.png"/></div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Maps</h4>The maps settings will use <strong>VicTheme Maps
+                    Plugin</strong> settings structure, and this settings will only available if victheme maps plugin is
+                    installed
+                    and enabled properly.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Contact Form 7</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/contact.png"/></div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Contact Form 7 Integration</h4>The plugin is capable to integrate with
+                    contact form 7 plugin for providing a contact form for single property entry. Additional contact
+                    form 7 <strong>token</strong>
+                    related to plugin post data is available to use.
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Extra Tokens</h4>The plugin will add additional contact form 7 tokens :
+                    <strong>[property-title]</strong>, <strong>[property-email]</strong> and
+                    <strong>[property-url]</strong> that when used in a property
+                    single page will convert the token into <strong>Property Post Title</strong>, <strong>Property email
+                        taken from the property email field</strong> and <strong>Property Page URL</strong> the contact
+                    form email body page.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="widgets--wgloop" class="section"><h3 class="separator">Property Loop Listing</h3>
+
+    <div class="alert alert-success"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+        <div class="text-with-icon">Property Loop widget is the widget to display property listing in widget format, the
+            widget provides
+            a configuration form that can configure the way the property listing should displayed.
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Configuration Form</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/widget-listing.png"/></div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Template</h4>This widget is capable to display property listing in
+                    different listing format as long as the listing format is
+                    supported by the plugin and / or the active theme
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Ajax</h4>Enable the ajax feature for this widget, the ajax feature will
+                    be used for ajax pagination, ajax filtering and / or
+                    ajaxed search when combined with the property search element
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Propety Types</h4>When this is enabled, a list of property types will be
+                    displayed that can be used for filtering the property listing
+                    displayed in this widget
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Pager, Mini Pager and Infinite Pager</h4>select the type of pager
+                    element should be used for this widget, when infinite pager is selected, ajax will be enabled by
+                    default since
+                    the infinite pager will not work without javascript and ajax.
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>ID</h4>the widget need to have <strong>Unique ID String</strong> for
+                    marking its loop object. This is needed for correct pagination, search and filtering.
+                    Two instance of the same widget with the same ID in the same page will perform pagination, search
+                    and filtering together when one is invoked.
+                    When coupling this widget with property search, this ID needs to be registered as the target for the
+                    property search widget result.
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Grids</h4>Define the grid number as Bootstrap Column Rules for the
+                    single property listing item.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="widgets--wgmap" class="section"><h3 class="separator">Property Maps</h3>
+
+    <div class="alert alert-success"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+        <div class="text-with-icon">Property Advanced Maps widget a widget to display property item in a maps as a map
+            marker with search and filtering capability.
+            This widget only available if VicTheme Maps plugin is installed and activated.
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Configuration Form</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/widget-maps.png"/></div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Search Feature</h4>This widget is capable to display a search box for
+                    filtering the property shown inside the maps, you can define what property type,
+                    property fields and property attributes should be displayed in the search form as well as the search
+                    form alignment and orientation
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Maps Settings</h4>The maps settings will configure on how the maps
+                    should display and behave. The settings used is for the Google Maps Javascript API.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="widgets--wgmetro" class="section"><h3 class="separator">Metro Style Loop</h3>
+
+    <div class="alert alert-success"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+        <div class="text-with-icon">Property Metro Listing widget is a widget for displaying property listing in metro
+            stacked listing style
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Configuration Form</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/widget-metro.png"/></div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Autofill</h4>If this is enabled, the widget will try to fetch more
+                    content when it detected an empty space in the widget container.
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Propety Types</h4>When this is enabled, a list of property types will be
+                    displayed that can be used for filtering the property listing
+                    displayed in this widget
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="widgets--wgrecent" class="section"><h3 class="separator">Property Recent List</h3>
+
+    <div class="alert alert-success"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+        <div class="text-with-icon">Property latest is a simple widget for displaying the property listing with filter
+            to sort the queried property post order per its creation date.
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Configuration Form</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/widget-latest.png"/></div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Template</h4>This widget is capable to display property listing in
+                    different listing format as long as the listing format is
+                    supported by the plugin and / or the active theme
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Order By</h4>Sort the list by property post date</div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Grids</h4>Define the grid number as Bootstrap Column Rules for the
+                    single property listing item.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="widgets--wgsearch" class="section"><h3 class="separator">Property Search</h3>
+
+    <div class="alert alert-success"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+        <div class="text-with-icon">Property Advanced Search widget will provide a widget with property search form, the
+            search form can target different kind of property loop
+            element such as property loop widget, property loop shortcodes, property loop visual composer shortcodes and
+            property loop created directly
+            using PHP code in a template.
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Configuration Form</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/widget-search.png"/></div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>ID</h4>This is the target id where the search form submission will be
+                    targeted to, it can be a property loop widget, property loop shortcode and / or property
+                    loop made using code directly in a template.
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Ajax</h4>Enable ajax form submission to filter the loop object via ajax,
+                    without this the loop object will be refreshed normally using page refresh when the search
+                    form is submitted.
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="panel-body"><span class="pull-left icon-large glyphicon glyphicon-hand-right"></span>
+
+                <div class="text-with-icon"><h4>Search Form Configuration</h4>You can fine tune the search form by
+                    adjusting its orientation and which types, fields or attributes to display on the form.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="shortcodes--scattributes" class="section"><h3 class="separator">Property Attributes</h3>
+
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Shortcode - vpropertyattributes</h3></div>
+        <div class="panel-body"><pre>
+ [vpropertyattributes
+
+   // Post ID (required)
+   postid=&quot;numeric&quot;
+
+   // disable single attribute
+   property_xxxxxx=&quot;true&quot;
+ ]
+          </pre>
+        </div>
+        <table class="form-table table table-striped">
+            <thead class="table-header">
+            <tr>
+                <th>Atts</th>
+                <th>Value</th>
+                <th>Description</th>
+            </tr>
+            </thead>
+            <tbody class="table-rows">
+            <tr>
+                <td>postid</td>
+                <td>numeric</td>
+                <td>Define the property post id to retrieve the data from.</td>
+            </tr>
+            <tr>
+                <td>property_xxxxx</td>
+                <td>valid property attributes taxonomy term machine name</td>
+                <td>when defined the property_xxxx value will be hidden from display</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div id="shortcodes--scfields" class="section"><h3 class="separator">Property Fields</h3>
+
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Shortcode - vpropertyfields</h3></div>
+        <div class="panel-body"><pre>
+ [vpropertyfields
+
+   // Post ID (required)
+   postid=&quot;numeric&quot;
+
+   // disable single fields
+   property_xxxxxx=&quot;true&quot;
+ ]
+          </pre>
+        </div>
+        <table class="form-table table table-striped">
+            <thead class="table-header">
+            <tr>
+                <th>Atts</th>
+                <th>Value</th>
+                <th>Description</th>
+            </tr>
+            </thead>
+            <tbody class="table-rows">
+            <tr>
+                <td>postid</td>
+                <td>numeric</td>
+                <td>Define the property post id to retrieve the data from.</td>
+            </tr>
+            <tr>
+                <td>property_xxxxx</td>
+                <td>valid property fields taxonomy term machine name</td>
+                <td>when defined the property_xxxx value will be hidden from display</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div id="shortcodes--scloop" class="section"><h3 class="separator">Property Style Loop</h3>
+
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Shortcode - vpropertyloop</h3></div>
+        <div class="panel-body"><pre>
+[vpropertyloop
+  title = &quot;string for the block title&quot;
+  description = &quot;string for the block description&quot;
+  id = &quot;uniqueid&quot;
+  ajax = &quot;boolean&quot;
+  type = &quot;boolean&quot;
+  pager = &quot;boolean&quot;
+  drill = &quot;boolean&quot;
+  mini = &quot;boolean&quot;
+  infinite = &quot;boolean&quot;
+  prev_text = &quot;some text&quot;
+  next_text = &quot;some text&quot;
+  posts_per_page = &quot;number of post per page&quot;
+  loading-text = &quot;ajax loading text&quot;
+  all = &quot;the all button text&quot;
+  template = &quot;grid|list&quot;
+
+  // Bootstrap column for the teaser item
+  teaser_columns_mobile=&quot;X&quot;
+  teaser_columns_tablet=&quot;X&quot;
+  teaser_columns_small=&quot;X&quot;
+  teaser_columns_large=&quot;X&quot;
+]
+          </pre>
+        </div>
+        <table class="form-table table table-striped">
+            <thead class="table-header">
+            <tr>
+                <th>Atts</th>
+                <th>Value</th>
+                <th>Description</th>
+            </tr>
+            </thead>
+            <tbody class="table-rows">
+            <tr>
+                <td>title</td>
+                <td>string</td>
+                <td>The main title for the loop block</td>
+            </tr>
+            <tr>
+                <td>description</td>
+                <td>string</td>
+                <td>The description under the title for the loop block</td>
+            </tr>
+            <tr>
+                <td>id</td>
+                <td>unique string</td>
+                <td>The ID to mark the loop object, This is needed for correct pagination, search and filtering.
+                    Two instance of loop object with the same ID in the same page will perform pagination, search and
+                    filtering together when one is invoked.
+                    When coupling this loop object with property search, this ID needs to be registered as the target
+                    for the property search submission result.
+                </td>
+            </tr>
+            <tr>
+                <td>ajax</td>
+                <td>boolean</td>
+                <td>use ajax for pagination, search and filtering</td>
+            </tr>
+            <tr>
+                <td>type</td>
+                <td>boolean</td>
+                <td>disable or enable the property type list filter element</td>
+            </tr>
+            <tr>
+                <td>pager</td>
+                <td>boolean</td>
+                <td>enable or disable the pager element</td>
+            </tr>
+            <tr>
+                <td>drill</td>
+                <td>boolean</td>
+                <td>when enabled, the property type list will only show the first level of taxonomy initially and then
+                    drill down to another level when parent is selected
+                </td>
+            </tr>
+            <tr>
+                <td>mini</td>
+                <td>boolean</td>
+                <td>use mini pagination with shown previous and next element only</td>
+            </tr>
+            <tr>
+                <td>infinite</td>
+                <td>boolean</td>
+                <td>use infinite pager</td>
+            </tr>
+            <tr>
+                <td>template</td>
+                <td>grid | list | custom template if supported by theme</td>
+                <td>select the property item display template</td>
+            </tr>
+            <tr>
+                <td>teaser_columns_*</td>
+                <td>numeric</td>
+                <td>the grid column for different view size as Bootstrap Column rules</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div id="shortcodes--scmap" class="section"><h3 class="separator">Property Maps</h3>
+
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Shortcode - vpropertymap</h3></div>
+        <div class="panel-body"><pre>
+[vpropertymap
+  title=&quot;some title&quot;
+  description =&quot;some description&quot;
+  posts_per_page = &quot;number of marker per page&quot;
+  search = &quot;true|false&quot; build the search box
+  search_position = &quot;top|left|right|bottom&quot;
+  search_alignment = &quot; vertical|horizontal&quot;
+  search_title = &quot;some text for the search box title&quot;
+  search_description = &quot;some text for the search box description&quot;
+  types__xx = the property type allowed in the search box
+  data__xx = a single data- attributes for the maps element
+  fields__{field machine name} = hidden // disable a single field
+  attributes__{attributes machine id} = hidden // disable a single attributes
+]
+          </pre>
+        </div>
+        <table class="form-table table table-striped">
+            <thead class="table-header">
+            <tr>
+                <th>Atts</th>
+                <th>Value</th>
+                <th>Description</th>
+            </tr>
+            </thead>
+            <tbody class="table-rows">
+            <tr>
+                <td>title</td>
+                <td>string</td>
+                <td>The main title for the loop block</td>
+            </tr>
+            <tr>
+                <td>description</td>
+                <td>string</td>
+                <td>The description under the title for the loop block</td>
+            </tr>
+            <tr>
+                <td>posts_per_page</td>
+                <td>number</td>
+                <td>The maximum marker shown in the single instance, this will also limit the marker fetched when search
+                    used
+                </td>
+            </tr>
+            <tr>
+                <td>search</td>
+                <td>true or false</td>
+                <td>show or hide the search form element</td>
+            </tr>
+            <tr>
+                <td>search_position</td>
+                <td>top or left or right or bottom</td>
+                <td>The position of the search form element relative to the map box</td>
+            </tr>
+            <tr>
+                <td>search_alignment</td>
+                <td>vertical or horizontal</td>
+                <td>The search box alignment</td>
+            </tr>
+            <tr>
+                <td>types__xx</td>
+                <td>valid property types taxonomy</td>
+                <td>replace xx with valid property type taxonomy machine name, if entered the property type will be
+                    hidden from the search form as by default all types is enabled
+                </td>
+            </tr>
+            <tr>
+                <td>data__xx</td>
+                <td>string</td>
+                <td>replace xx with any data type that will be printed as html5 data-* attributes for the maps element,
+                    this is useful to override any data-* for maps settings
+                </td>
+            </tr>
+            <tr>
+                <td>fields__xx</td>
+                <td>valid property field taxonomy</td>
+                <td>replace xx with valid field taxonomy machine name, when enabled the property field will be hidden
+                    from the search form
+                </td>
+            </tr>
+            <tr>
+                <td>attributes__xx</td>
+                <td>valid property attributes taxonomy</td>
+                <td>replace xx with valid attributes taxonomy machine name, when enabled the property attributes will be
+                    hidden from the search form
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div id="shortcodes--scmetro" class="section"><h3 class="separator">Property Metro Style Loop</h3>
+
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Shortcode - vpropertymetro</h3></div>
+        <div class="panel-body"><pre>
+[vpropertymetro
+  title = &quot;string for the block title&quot;
+  description = &quot;string for the block description&quot;
+  type = &quot;boolean&quot;
+  auto_fill = &quot;boolean&quot;
+  posts_per_page = &quot;number of post per page&quot;
+  all = &quot;the all button text&quot;
+]
+          </pre>
+        </div>
+        <table class="form-table table table-striped">
+            <thead class="table-header">
+            <tr>
+                <th>Atts</th>
+                <th>Value</th>
+                <th>Description</th>
+            </tr>
+            </thead>
+            <tbody class="table-rows">
+            <tr>
+                <td>title</td>
+                <td>string</td>
+                <td>The main title for the loop block</td>
+            </tr>
+            <tr>
+                <td>description</td>
+                <td>string</td>
+                <td>The description under the title for the loop block</td>
+            </tr>
+            <tr>
+                <td>type</td>
+                <td>true or false</td>
+                <td>show the property type filter box</td>
+            </tr>
+            <tr>
+                <td>auto_fill</td>
+                <td>true or false</td>
+                <td>enable the auto fill feature where it will detect and auto fill the white space empty gap by
+                    fetching more posts if available
+                </td>
+            </tr>
+            <tr>
+                <td>posts_per_page</td>
+                <td>number</td>
+                <td>the number of post fetched initially and when pagination occurs</td>
+            </tr>
+            <tr>
+                <td>all</td>
+                <td>string</td>
+                <td>The show all button for the property type filter box</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div id="shortcodes--scsearch" class="section"><h3 class="separator">Property Search</h3>
+
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Shortcode - vpropertysearch</h3></div>
+        <div class="panel-body"><pre>
+[vpropertysearch
+  types=&quot;1,2,3,4,5&quot;
+  action=&quot;url to post the form&quot;
+  id=&quot;unique wploop id to link this search form to&quot;
+  ajax=&quot;true&quot;
+  search_alignment=&quot;vertical|horizontal&quot;
+  search_title = &quot;some text for the search box title&quot;
+  search_description = &quot;some text for the search box description&quot;
+  fields__{field machine name} = hidden // disable a single field
+  attributes__{attributes machine id} = hidden // disable a single attributes
+]
+          </pre>
+        </div>
+        <table class="form-table table table-striped">
+            <thead class="table-header">
+            <tr>
+                <th>Atts</th>
+                <th>Value</th>
+                <th>Description</th>
+            </tr>
+            </thead>
+            <tbody class="table-rows">
+            <tr>
+                <td>search_title</td>
+                <td>string</td>
+                <td>The main title for the loop block</td>
+            </tr>
+            <tr>
+                <td>search_description</td>
+                <td>string</td>
+                <td>The description under the title for the loop block</td>
+            </tr>
+            <tr>
+                <td>types</td>
+                <td>number separated by comma</td>
+                <td>the property type taxonomy id that is allowed to be searched using the search form</td>
+            </tr>
+            <tr>
+                <td>action</td>
+                <td>string in url format</td>
+                <td>The url to redirect upon search submission</td>
+            </tr>
+            <tr>
+                <td>id</td>
+                <td>string</td>
+                <td>the unique id for the loop object that can be loop shortcode, loop widget or loop object from
+                    template to target the submitted
+                    search parameter and perform filtering to.
+                </td>
+            </tr>
+            <tr>
+                <td>ajax</td>
+                <td>true or false</td>
+                <td>when ajax is enabled then no form redirection will be performed, instead it will use ajax to change
+                    the target loop object content
+                    upon search form submission
+                </td>
+            </tr>
+            <tr>
+                <td>fields__xxx</td>
+                <td>valid property field taxonomy</td>
+                <td>replace xxx with valid property field taxonomy machine name to disable the field from displaying in
+                    the search form
+                </td>
+            </tr>
+            <tr>
+                <td>attributes__xxx</td>
+                <td>valid property attribute taxonomy</td>
+                <td>replace xxx with valid property attribute taxonomy machine name to disable the attribute from
+                    displaying in the search form
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div id="shortcodes--sctype" class="section"><h3 class="separator">Property Type</h3>
+
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Shortcode - vpropertytype</h3></div>
+        <div class="panel-body"><pre>
+ [vpropertytype
+
+   // Post ID (required)
+   postid=&quot;numeric&quot;
+ ]
+          </pre>
+        </div>
+        <table class="form-table table table-striped">
+            <thead class="table-header">
+            <tr>
+                <th>Atts</th>
+                <th>Value</th>
+                <th>Description</th>
+            </tr>
+            </thead>
+            <tbody class="table-rows">
+            <tr>
+                <td>postid</td>
+                <td>numeric</td>
+                <td>Define the property post id to retrieve the data from.</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div id="vc--vcattributes" class="section"><h3 class="separator">Property Attributes</h3>
+
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">General Settings</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/shortcode-property-attribute-1.png"/></div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Attributes Settings</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/shortcode-property-attribute-2.png"/></div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Visibility Settings</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/shortcode-property-attribute-3.png"/></div>
+        </div>
+    </div>
+</div>
+<div id="vc--vcfields" class="section"><h3 class="separator">Property Fields</h3>
+
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">General Settings</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/shortcode-property-field-1.png"/></div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Fields Settings</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/shortcode-property-field-3.png"/></div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Visibility Settings</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/shortcode-property-field-2.png"/></div>
+        </div>
+    </div>
+</div>
+<div id="vc--vcloop" class="section"><h3 class="separator">Property Listing</h3>
+
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">General Settings</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/shortcode-property-listing-1.png"/></div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Advanced Settings</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/shortcode-property-listing-2.png"/></div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Grid Settings</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/shortcode-property-listing-3.png"/></div>
+        </div>
+    </div>
+</div>
+<div id="vc--vcmap" class="section"><h3 class="separator">Property Maps</h3>
+
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">General Settings</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/shortcode-property-map-1.png"/></div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Maps Settings</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/shortcode-property-map-2.png"/></div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Search Settings</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/shortcode-property-map-3.png"/></div>
+        </div>
+    </div>
+</div>
+<div id="vc--vcmetro" class="section"><h3 class="separator">Property Metro</h3>
+
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">General Settings</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/shortcode-property-metro-1.png"/></div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Advanced Settings</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/shortcode-property-metro-2.png"/></div>
+        </div>
+    </div>
+</div>
+<div id="vc--vcsearch" class="section"><h3 class="separator">Property Search</h3>
+
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">General Settings</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/shortcode-property-search-1.png"/></div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Advanced Settings</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/shortcode-property-search-2.png"/></div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Visibility Settings</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/shortcode-property-search-3.png"/></div>
+        </div>
+    </div>
+</div>
+<div id="vc--vctype" class="section"><h3 class="separator">Property Type</h3>
+
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">General Settings</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/shortcode-property-type-1.png"/></div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Visibility Settings</h3></div>
+        <div class="panel-body">
+            <div class="thumbnail"><img src="assets/images/shortcode-property-type-2.png"/></div>
+        </div>
+    </div>
+</div>
+<div id="developer--dffield" class="section"><h3 class="separator">Field System</h3>
+
+<div class="panel panel-default">
+    <div class="panel-heading"><h3 class="panel-title">Creating New Field - Registering New Field</h3></div>
+    <div class="panel-body"><p>
+        Example on how to register a new field meta information to Victheme Property. This example is simplified for
+        readability purposes.
+        If you are using VTCore objects, please register the filter using its native filter system
+    </p><pre>
+// Adding the new Field to Property Field system
+add_filter('vtcore_property_alter_fields', 'register_my_field');
+
+// Function for registering the new field array
+function register_my_field($registry) {
+
+  $registry['my_custom_field'] = array(
+
+    // Property Machine id, this must be unique
+    // and no other field has it.
+    // It must also only contain underscore and
+    // alphanumeric character without any spaces.
+    'field' =&gt; 'my_custom_field',
+
+    // The human friendly ame
+    'name' =&gt; __('Translate me'),
+
+    // The icon type, currently proicon and fontawesome
+    // is available to use
+    'icon_type' =&gt; 'fontawesome',
+
+    // The icon name without prefix, example :
+    // fa-gears become gears.
+    'icon' =&gt; 'gears',
+
+    // The field initial state
+    // this state will get overriden with dynamic
+    // data from the property entity
+    'enabled' =&gt; true,
+
+    // Arrays of settings, this is related to
+    // the field object metabox form. especially
+    // the input name attributes which relates
+    // to the generated Array attribute
+    // This is mainly useful when you also need
+    // to register custom taxonomy linked with
+    // this field.
+    'settings' =&gt; array(
+
+      // Example to tell field to store as taxonomy
+      // my_custom_meta must be in Array somehow.
+      'my_custom_meta' =&gt; array(
+        'mode' =&gt; 'taxonomy',
+
+        // The taxonomy will be registered automatically
+        'type' =&gt; 'my_custom_meta_taxonomy',
+
+        // The label for this meta
+        'label' =&gt; __('translate me'),
+
+        // Specify custom taxonomy arguments that will
+        // be passed to register_taxonomy()
+        'args' =&gt; array(
+          'name' =&gt; __('Translate me'),
+          'taxonomy' =&gt; 'my_custom_meta_taxonomy',
+          'hierarchical' =&gt; false,
+
+          // Property field where this taxonomy
+          // will be available for
+          'fields' =&gt; array(
+            'my_custom_field',
+          ),
+
+          // taxonomy slug entry, this is related
+          // to query_args
+          'slug' =&gt; 'some-valid-slug',
+        ),
+
+
+
+        // Example to tell field to store in the _property_data
+        // entry in wp_post_meta table
+        // Remember the &quot;my_other_meta&quot; must actually exists in
+        // $_POST
+        'my_other_meta' =&gt; array(
+          'type' =&gt; 'data',
+        ),
+      ),
+    ),
+
+
+    // This array is useful to tell fields where to
+    // store the data.
+    'storage' =&gt; array(
+
+      // The key &quot;my_custom_meta&quot; must exists in the metaform
+      // Example for taxonomy storing
+      'my_custom_meta' =&gt; array(
+        'type' =&gt; 'taxonomy',
+        'target' =&gt; 'my_custom_taxonomy',
+        'mode' =&gt; 'taxonomy_id',
+        'args' =&gt; array(
+          'name' =&gt; __('Human Friendly Name'),
+          'taxonomy' =&gt; 'my_custom_taxonomy',
+          'hierarchical' =&gt; true,
+          'show_in_nav_menus' =&gt;  true,
+          'slug' =&gt; 'some-valid-slug',
+          'labels' =&gt; array(
+            'name' =&gt; __('Human Friendly Name', VTCORE_PROPERTY_LANGUAGE),
+          ),
+        ),
+      ),
+
+      // Example for storing in custom post meta
+      'another_custom_meta' =&gt; array(
+        'type' =&gt; 'meta',
+        'target' =&gt; '_custom_post_meta',
+      ),
+    ),
+
+
+
+    // Setting field item visibility
+    // This setting will be used when property entity
+    // is rendering the field object.
+    'visibility' =&gt; array(
+
+      // Default settings
+      'label' =&gt; true,
+      'icon' =&gt; true,
+      'search' =&gt; true,
+
+      // You can also pass your own settings
+      // These custom settings is usefull
+      // when you build the objects for this field
+      'some_field' =&gt; true,
+      'another_field' =&gt; true,
+      'yet_another_field' =&gt; true,
+    ),
+
+
+    // Define the object name that will be called
+    // when the property object is rendering.
+    // These four is the default &quot;rendering state&quot;
+    // that the property object expect to have.
+    // But you can also define your own state and
+    // handle the rendering manually.
+    'objects' =&gt; array(
+      'text' =&gt; 'My_Custom_Plugin_Objects_Text',
+      'metabox' =&gt; 'My_Custom_Plugin_Objects_Metabox',
+      'search' =&gt; 'My_Custom_Plugin_Objects_Search',
+      'display'=&gt; 'My_Custom_Plugin_Objects_Display',
+    ),
+
+
+    // The groupping and weight is for the location when the
+    // field metabox is rendering.
+    // If you define unregistered group then the metabox group
+    // panel will have no text on it.
+    'group' =&gt; 'property_info',
+    'weight' =&gt; 2,
+  );
+
+
+  // Finished registering, returning the registry
+  return $registry;
+}
+          </pre>
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h3 class="panel-title">Creating New Field - Field Object Text Mode</h3></div>
+    <div class="panel-body"><p>
+        The text only object will be rendered when theme is calling the Property field to render
+        a text only mode, example usage is for displaying text only address without markup or property
+        price without any markup.
+        <br/><br/>
+        Example of building the field text only object for use when the field is rendering,
+        It is assumed that the reader is already understand how VTCore object autoloading and class mechanism.
+    </p><pre>
+// Class for processing the data when in text only mode
+class My_Custom_Plugin_Objects_Text
+extends VTCore_Property_Element_Base {
+
+  // Define the default context
+  // This will be autopopulated value as defined
+  // in the settings array
+  protected $context = array(
+    'some_key' =&gt; 'some value',
+  );
+
+  // The build element will be invoked when
+  // VTCore Object is ready for rendering
+  public function buildElement() {
+    // add the element for processing while in text mode
+    // @see VTCore_Property_Element_AddressText for example
+
+    // Example for adding a simple text
+    $this-&gt;addChildren(__('Hello world'));
+
+    // Example of retrieving context
+    if ($this-&gt;getContext('some_key')) {
+      $this-&gt;addChildren($this-&gt;getContext('some_key'));
+    }
+
+    // Example of using template file instead
+    // @note you can use VTCore_Wordpress_Init::getFactory('template')-&gt;locate('template.php');
+    // If you are using victheme_core template factory and register the correct path
+    // for the 'template.php' file.
+    ob_start();
+    include '/path/to/mytemplate/template.php';
+    $content = ob_get_contents();
+    $this-&gt;addChildren(new VTCore_Html_Element(array(
+      'type' =&gt; 'section',
+      'text' =&gt; $content,
+      'attributes' =&gt; array(
+        'class' =&gt; array(
+          'myclass',
+        ),
+      ),
+    )));
+
+  }
+}
+
+          </pre>
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h3 class="panel-title">Creating New Field - Field Object Display Mode</h3></div>
+    <div class="panel-body"><p>
+        The display object will be rendered when theme is calling the Property field to render normally.
+        <br/><br/>
+        Example of building the field display object for use when the field is rendering,
+        It is assumed that the reader is already understand how VTCore object autoloading and class mechanism.
+    </p><pre>
+// Class for processing the data when in default display mode
+class My_Custom_Plugin_Objects_Display
+extends VTCore_Property_Element_Base {
+
+  // Define the default context
+  // This will be autopopulated value as defined
+  // in the settings array
+  protected $context = array(
+    'some_key' =&gt; 'some value',
+  );
+
+  // The build element will be invoked when
+  // VTCore Object is ready for rendering
+  public function buildElement() {
+
+    // Example for adding a simple text
+    $this-&gt;addChildren(__('Hello world'));
+
+    // Example of retrieving context
+    if ($this-&gt;getContext('some_key')) {
+      $this-&gt;addChildren($this-&gt;getContext('some_key'));
+    }
+
+    // Example of using template file instead
+    // @note you can use VTCore_Wordpress_Init::getFactory('template')-&gt;locate('template.php');
+    // If you are using victheme_core template factory and register the correct path
+    // for the 'template.php' file.
+    ob_start();
+    include '/path/to/mytemplate/template.php';
+    $content = ob_get_contents();
+    $this-&gt;addChildren(new VTCore_Html_Element(array(
+      'type' =&gt; 'section',
+      'text' =&gt; $content,
+      'attributes' =&gt; array(
+        'class' =&gt; array(
+          'myclass',
+        ),
+      ),
+    )));
+
+  }
+}
+
+          </pre>
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h3 class="panel-title">Creating New Field - Field Object Search Field</h3></div>
+    <div class="panel-body"><p>
+        The search object will be rendered when search box for property is rendered either via coding, shortcode or
+        widget.
+        <br/><br/>
+        Example of building the field search object for use when the property search box is rendering,
+        It is assumed that the reader is already understand how VTCore object autoloading and class mechanism.
+    </p><pre>
+// Class for building the field search field
+class My_Custom_Plugin_Objects_Search
+extends VTCore_Bootstrap_Form_Base {
+
+  // Define the default context
+  // This will be autopopulated value as defined
+  // in the settings array
+  protected $context = array(
+    'some_key' =&gt; 'some value',
+  );
+
+  // Define on how to build the search element field
+  // for this new property field
+  public function buildElement() {
+
+    // Ask for parent standard buildElement
+    parent::buildElement();
+
+    // Set if this field should be visible or hidden
+    $this-&gt;visibility = $this-&gt;getContext('visibility');
+
+
+    // Build a text field example
+    // In this example we are using shortcode class name BsText
+    if ($this-&gt;visibility) {
+      $this
+        -&gt;BsText(array(
+          'text' =&gt; __('My Custom Field'),
+          'name' =&gt; $this-&gt;getContext('queryid') . '_custom_field',
+        ));
+    }
+
+    // Build a hierarchical select example
+    // In this example we are using standard addChildren instead of shortcode
+    // class name.
+    if ($this-&gt;visibility) {
+      $this
+        -&gt;addChildren(new VTCore_Wordpress_Form_WpTerms(array(
+          'text' =&gt; __('Another custom field'),
+          'name' =&gt; $this-&gt;getContext('queryid') . '_custom_field_two',
+
+          // define the taxonomy to drill
+          'taxonomies' =&gt; array('some_custom_taxonomy'),
+        )));
+    }
+  }
+}
+
+          </pre>
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h3 class="panel-title">Creating New Field - Field Object Metabox Field</h3></div>
+    <div class="panel-body"><p>
+        The search object will be rendered when search box for property is rendered either via coding, shortcode or
+        widget.
+        <br/><br/>
+        Example of building the field search object for use when the property search box is rendering,
+        It is assumed that the reader is already understand how VTCore object autoloading and class mechanism.
+    </p><pre>
+// Class for building the field metabox field
+class My_Custom_Plugin_Objects_Metabox
+extends VTCore_Bootstrap_Form_Base {
+
+  // Define the default context
+  // This will be autopopulated value as defined
+  // in the settings array
+  protected $context = array(
+    'type' =&gt; 'div',
+    'attributes' =&gt; array(
+      'class' =&gt; array(
+        'row',
+      ),
+    ),
+
+    'value' =&gt; array(
+      'custom_field_one' =&gt; 'test',
+      'custom_field_two' =&gt; 'another test',
+    ),
+
+    'visibility' =&gt; array(
+      'custom_field_one' =&gt; true,
+      'custom_field_two' =&gt; true,
+      'icon' =&gt; true,
+      'label' =&gt; true,
+    ),
+  );
+
+  // Define on how to build the metabox field
+  // for this new property field
+  public function buildElement() {
+
+    parent::buildElement();
+
+    // Build the custom field one
+    if ($this-&gt;getContext('visibility.custom_field_one')) {
+      $this
+
+        // Build the grid for left side, consisting of
+        // text and description
+        -&gt;BsElement(array(
+          'type' =&gt; 'div',
+          'grids' =&gt; array(
+            'columns' =&gt; array(
+              'mobile' =&gt; '12',
+              'tablet' =&gt; '4',
+              'small' =&gt; '4',
+              'large' =&gt; '4',
+            ),
+          ),
+        ))
+        -&gt;lastChild()
+        -&gt;BsElement(array(
+          'type' =&gt; 'h4',
+          'text' =&gt; __('My custom field one'),
+        ))
+        -&gt;BsDescription(array(
+          'text' =&gt; __('Description for my custom field one'),
+        ))
+        -&gt;getParent()
+
+
+        // Build the grid for the right hand side
+        // consisiting of the actual metabox field for custom field one
+        -&gt;BsElement(array(
+          'type' =&gt; 'div',
+          'grids' =&gt; array(
+            'columns' =&gt; array(
+              'mobile' =&gt; '12',
+              'tablet' =&gt; '8',
+              'small' =&gt; '8',
+              'large' =&gt; '8',
+            ),
+          ),
+        ))
+        -&gt;lastChild()
+        -&gt;BsText(array(
+          'text' =&gt; __('My Custom Field One', VTCORE_PROPERTY_LANGUAGE),
+          'name' =&gt; 'property[fields][my_custom_field_machine_id][custom_field_one]',
+          'value' =&gt; $this-&gt;getContext('value.custom_field_one'),
+          'grids' =&gt; array(
+            'columns' =&gt; array(
+              'mobile' =&gt; '8',
+              'tablet' =&gt; '8',
+              'small' =&gt; '8',
+              'large' =&gt; '8',
+            ),
+          ),
+        ));
+    }
+
+
+    // Build the custom field two
+    if ($this-&gt;getContext('visibility.custom_field_two')) {
+      $this
+
+        // Build the grid for left side, consisting of
+        // text and description
+        -&gt;BsElement(array(
+          'type' =&gt; 'div',
+          'grids' =&gt; array(
+            'columns' =&gt; array(
+              'mobile' =&gt; '12',
+              'tablet' =&gt; '4',
+              'small' =&gt; '4',
+              'large' =&gt; '4',
+            ),
+          ),
+        ))
+        -&gt;lastChild()
+        -&gt;BsElement(array(
+          'type' =&gt; 'h4',
+          'text' =&gt; __('My custom field Two'),
+        ))
+        -&gt;BsDescription(array(
+          'text' =&gt; __('Description for my custom field two'),
+        ))
+        -&gt;getParent()
+
+
+        // Build the grid for the right hand side
+        // consisiting of the actual metabox field for custom field one
+        -&gt;BsElement(array(
+          'type' =&gt; 'div',
+          'grids' =&gt; array(
+            'columns' =&gt; array(
+              'mobile' =&gt; '12',
+              'tablet' =&gt; '8',
+              'small' =&gt; '8',
+              'large' =&gt; '8',
+            ),
+          ),
+        ))
+        -&gt;lastChild()
+        -&gt;BsText(array(
+          'text' =&gt; __('My Custom Field Two', VTCORE_PROPERTY_LANGUAGE),
+          'name' =&gt; 'property[fields][my_custom_field_machine_id][custom_field_two]',
+          'value' =&gt; $this-&gt;getContext('value.custom_field_two'),
+          'grids' =&gt; array(
+            'columns' =&gt; array(
+              'mobile' =&gt; '8',
+              'tablet' =&gt; '8',
+              'small' =&gt; '8',
+              'large' =&gt; '8',
+            ),
+          ),
+        ));
+    }
+  }
+}
+          </pre>
+    </div>
+</div>
+</div>
+<div id="developer--dfrender" class="section"><h3 class="separator">Rendering System</h3>
+
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Rendering Property Element</h3></div>
+        <div class="panel-body"><p>
+            Property Element Object is loaded and binded together to the global $post object via the_post() action hook
+            via
+            <strong>VTCore_Property_Actions_The__Post</strong> class.
+            <br/>
+            <br/>
+            Thus before rendering the property element, one must call the global $post first.
+        </p><pre>
+// Calling Wordpress Global $post object, this is recommended to be invoked
+// when in Wordpress Loop.
+global $post;
+
+// Determine if we got valid property object attached
+if (isset($post-&gt;property)) {
+  
+  // Perform the rendering method here.
+}
+
+          </pre>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Rendering Property Type</h3></div>
+        <div class="panel-body"><pre>
+/**
+ * Rendering Property Type
+ */
+// Building the property type using simple way
+$post-&gt;property-&gt;renderType();
+
+// or using generalized method
+$post-&gt;property-&gt;render('type');
+
+
+// Building the property type with customized context
+if ($post-&gt;property-&gt;getMeta('type')) {
+
+  // Inject custom context into this array
+  // @see VTCore_Property_Element_Type object for valid context
+  $context = array(
+
+    // @see VTCore_Html element for valid contexes
+    'type' =&gt; 'div',
+
+    // HTML attributes
+    'attributes' =&gt; array(
+      'id' =&gt; 'some-unique-id',
+      'class' =&gt; array(
+        'property-element-price',
+      ),
+    ),
+
+    // HTML5 data-*
+    'data' =&gt; array(
+      'attribute-one' =&gt; 'some-value',
+      'attribute-two' =&gt; 'some-value',
+      'somemore' =&gt; 'some more'
+    ),
+
+    // HTML inline css styling
+    'styles' =&gt; array(
+      'margin-left' =&gt; '30px',
+      'font-weight' =&gt; 'bold',
+    ),
+
+    // Custom grid using bootstrap
+    'grids' =&gt; array(
+      'columns' =&gt; array(
+        'mobile' =&gt; 12,
+        'tablet' =&gt; 6,
+        'small' =&gt; 4,
+        'large' =&gt; 3,
+      )
+    ),
+
+    'type' =&gt; $post-&gt;property-&gt;getMeta('type')
+  );
+
+  $object = new VTCore_Property_Element_Type($context);
+  $object-&gt;render();
+}
+
+          </pre>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Rendering Property Field</h3></div>
+        <div class="panel-body"><pre>
+/**
+ * Rendering Property Field
+ */
+// Building a single Property Field the easy way
+$post-&gt;property-&gt;renderField('property_location');
+
+// Or using the generalized method
+$post-&gt;property-&gt;render('field', 'property_location');
+
+// Using complex method for customized output
+if ($post-&gt;property-&gt;getMeta('fields.property_location')) {
+
+  $context = $post-&gt;property-&gt;getMeta('fields.property_location');
+
+  // Alter the $context value here
+  $context['grids'] = array(
+    'columns' =&gt; array(
+      'mobile' =&gt; 12,
+      'tablet' =&gt; 6,
+      'small' =&gt; 4,
+      'large' =&gt; 3,
+    ),
+  );
+
+  $object = new VTCore_Property_Element_Location($context);
+  $object-&gt;render();
+}
+
+
+/**
+ * Rendering Property Fields
+ */
+// Rendering all property fields at once
+$post-&gt;property-&gt;render('fields');
+
+          </pre>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Rendering Property Attribute</h3></div>
+        <div class="panel-body"><pre>
+/**
+ * Rendering Property Attribute
+ *
+ * When rendering a single property attribute
+ * it is essential that you know the id for the
+ * attribute, it is a generated randomized key
+ * so you must actually debug the property object
+ * to get the actual array key.
+ */
+// Rendering as single attribute
+$post-&gt;property-&gt;renderAttribute('property_aabbccdddee');
+
+// or using the generalized method
+$post-&gt;property-&gt;render('attribute', 'property_aabbccddee');
+
+
+// Rendering a custom single attribute
+$taxonomy = 'property_aabbccddee';
+if ($post-&gt;property-&gt;getAttribute($taxonomy)) {
+
+  // Get the default contextes stored in the property object.
+  $context = $post-&gt;property-&gt;getAttribute($taxonomy)-&gt;getContexes();
+
+  // Modify the default context, in this case we add
+  // the value to the context.
+  $context['value'] = $attribute;
+
+  // Build the attributes display object
+  $object = new VTCore_Property_Element_Attributes($context);
+  $object-&gt;render();
+}
+
+
+/**
+ * Rendering Property Attributes
+ */
+// Render all attributes at once
+$post-&gt;property-&gt;render('attributes');
+
+          </pre>
+        </div>
+    </div>
+</div>
+<div id="developer--dftemplate" class="section"><h3 class="separator">Templating System</h3>
+
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Default Template Files</h3></div>
+        <div class="panel-body"><p>
+            Plugin has several default template files that will be used when rendering the
+            Property Elements.
+        </p></div>
+        <table class="form-table table table-striped">
+            <thead class="table-header">
+            <tr>
+                <th>Template Name</th>
+                <th>File Path</th>
+                <th>Description</th>
+            </tr>
+            </thead>
+            <tbody class="table-rows">
+            <tr>
+                <td>property-content.php</td>
+                <td>victheme_property/templates</td>
+                <td>Template file used for rendering the property post information when in <strong>Single Post</strong>,
+                    by default
+                    if theme doesn't override it, this file will be invoked via Wordpress
+                    <em><strong>the_content()</strong></em> function.
+                </td>
+            </tr>
+            <tr>
+                <td>property-empty.php</td>
+                <td>victheme_property/templates</td>
+                <td>This template file will be used by property loop when displaying property archive page and there are
+                    no teaser
+                    available to display.
+                </td>
+            </tr>
+            <tr>
+                <td>property-grid.php</td>
+                <td>victheme_property/templates</td>
+                <td>This template file is used when rendering a single property teaser when grid mode selected</td>
+            </tr>
+            <tr>
+                <td>property-list.php</td>
+                <td>victheme_property/templates</td>
+                <td>This template file is used when rendering a single property teaser when list mode selected</td>
+            </tr>
+            <tr>
+                <td>property-loop.php</td>
+                <td>victheme_property/templates</td>
+                <td>This is the loop template used when rendering the property archive page or the property category
+                    listing page
+                </td>
+            </tr>
+            <tr>
+                <td>property-masonry.php</td>
+                <td>victheme_property/templates</td>
+                <td>This template file is used for rendering a single property teaser when masonry mode selected</td>
+            </tr>
+            <tr>
+                <td>property-metro.php</td>
+                <td>victheme_property/templates</td>
+                <td>This template file is used for rendering a single property teaser when metro mode selected</td>
+            </tr>
+            <tr>
+                <td>property-mini-list.php</td>
+                <td>victheme_property/templates</td>
+                <td>This template file is mainly used by the property recent widget for displaying a simple property
+                    listing
+                </td>
+            </tr>
+            <tr>
+                <td>property-thumbnail.php</td>
+                <td>victheme_property/templates</td>
+                <td>This template file is used for rendering a single property teaser with only its thumbnail
+                    displayed
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Theme Suggested Template File</h3></div>
+        <div class="panel-body"><p>
+            Plugin will use the WordPress Native template file suggestion workflow, you can use the standard <strong>
+            single-property.php</strong>, <strong>archive-property.php</strong>, <strong>archive-{property taxonomy
+            slug}.php</strong>
+        </p></div>
+        <table class="form-table table table-striped">
+            <thead class="table-header">
+            <tr>
+                <th>Suggested Filename</th>
+                <th>Description</th>
+            </tr>
+            </thead>
+            <tbody class="table-rows">
+            <tr>
+                <td>archive-property.php</td>
+                <td>If located then wordpress will use this template file when rendering the property listing page.</td>
+            </tr>
+            <tr>
+                <td>archive-{property taxonomy slug|property_category}.php</td>
+                <td>If located then wordpress will use this file template instead the archive-property.php when
+                    displaying
+                    property related taxonomy term listing page
+                </td>
+            </tr>
+            <tr>
+                <td>single-property.php</td>
+                <td>if located then wordpress will use this to display the single property post page.</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Overriding Property Default Templates</h3></div>
+        <div class="panel-body"><p>
+            Theme can easily overrides all the default property templates by registering the overriding file into
+            the Victheme Core templating system.
+        </p><pre>
+
+/**
+ * In this example we assume that all the overriding
+ * template file will be located in the :
+ * mycustomtheme/templates/property
+ * and this registration code is called from :
+ * mycustomtheme/functions.php
+ */
+
+    // Retrieve the victheme core template factory and add our
+    // custom path to it.
+    VTCore_Wordpress_Init::getFactory('template')
+      -&gt;register(
+        dirname(__FILE__) .  DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SEPARATOR . 'property',
+        'templates' . DIRECTORY_SEPARATOR . 'property'
+      );
+
+
+/**
+ * Stopping plugin for doing the_content() filter.
+ *
+ * By default the plugin will alter Wordpress the_content() function
+ * when displaying the single property content.
+ *
+ * When altering the function, the plugin will invoke property-content.php
+ * template and invoke all the property fields, type and attributes within it.
+ *
+ * You can override the property-single.php by copying the
+ * file to theme_name/templates/property/property-content.php
+ * and do the modification in the copied file.
+ *
+ * or you can disable this completely by defining VTCORE_PROPERTY_CUSTOM_CONTENT
+ * constant.
+ */
+
+    // Completely disables the property the_content() filter
+    define('VTCORE_PROPERTY_CUSTOM_CONTENT', true);
+
+ /**
+  * Invoking custom template that already registered to the
+  * VTCore Template registry.
+  *
+  * In some cases, you may need to invoke the custom template
+  * directly in some template file (or widgets or shortcode)
+  *
+  */
+ // Invoking example template file called property/single.php
+ // Warning : victheme_core plugin must be active or this will break!
+ if (class_exists('VTCore_Wordpress_Init', true)) {
+
+   // The static method will invoke the VTCore Template Library and
+   // search for the files in the plugin directory or theme directory
+   // and serve the file path to PHP.
+   include VTCore_Wordpress_Init::getFactory('template')-&gt;locate('property-single.php');
+ }
+
+
+ /**
+  * Replacing the default loop in archive.php template
+  *
+  * To display the custom archive property listing, it is advisable
+  * to create archive-property.php by copying the theme default
+  * archive.php and replace the main loop :
+  *
+  * while have_posts() .....
+  *
+  * endwhile ........
+  *
+  * to :
+  *
+  * &lt;?php include VTCore_Wordpress_Init::getFactory('template')-&gt;locate('property-grid.php'); ?&gt;
+  *
+  * which will replace the main loop with property custom loop
+  */
+// Overriding the default loop for the archive's page by
+// manually replacing them with this code
+if (class_exists('VTCore_Wordpress_Init', true)) {
+
+  // Booting the custom loop + property grid mode template
+  include VTCore_Wordpress_Init::getFactory('template')-&gt;locate('property-loop.php');
+}
+
+
+          </pre>
+        </div>
+    </div>
+</div>
+<div id="Credit" class="section"><h3 class="separator">Credits</h3>
+
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Credits</h3></div>
+        <div class="panel-body"><p>Thank you for the plugins authors that made this theme possible
+
+            <ul>
+                <li><h4>CSS</h4>
+                    <ul>
+                        <li>BootStrap Framework - <strong>BootStrap Team</strong></li>
+                        <li>FontAwesome - <strong>Dave Gandy</strong></li>
+                    </ul>
+                </li>
+            </ul>
+            </p></div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
