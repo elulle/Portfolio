@@ -43,13 +43,13 @@
 				</div>
 				<div class="circle disable">
 					<!-- <a href="#"> -->
-						<h2>Comming Soon</h2>
+						<h2>Coming Soon</h2>
 						<img src="resources/img/riga.jpg">
 					<!-- </a> -->
 				</div>
 				<div class="circle disable">
 					<!-- <a href="#"> -->
-						<h2>Comming Soon</h2>
+						<h2>Coming Soon</h2>
 						<img src="resources/img/test.jpg">
 					<!-- </a> -->
 				</div>
