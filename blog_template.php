@@ -27,8 +27,8 @@
 
 			
 			<div class="alert">
-				<p>Thank you for reading! My Next Blog will be about my experiences and travels in Europe.</p><br>
-				<p>Feel free to leave me feedback <a href="contactme.php">here</a>. </p>
+				<p>Thank you for reading! My Next Blog will be about my travels in Europe.</p><br>
+				<p>Feel free to leave me feedback and let me know what to include in my next blog<a href="contactme.php">here</a>. </p>
 			</div>
 			
 			<div class="hidden">
