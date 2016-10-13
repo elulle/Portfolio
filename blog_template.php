@@ -12,7 +12,7 @@
 		<div class="content-wrap blog-wrapper">
 			<h2>Time to disturb my current life</h2>
 			<p>I'm not much of a writer. I don't really share much about my holidays / travels apart from sharing an album or two on Facebook. But now that Wi-Fi has gone down for the whole day, I guess I will try write my first blog.</p><br>
-			<p>In an office coding away day in day out, same routine for a year, I got a bit restless. Don't get me wrong I enjoy coding and I enjoyed my work friends and workplace. Many people are happy with that comfortable lifestyle, knowing that they will get a pay check at the end of the month etc... However, sitting at a desk every single day, just watching my life pass by - I just couldn't do it anymore.  I knew there was so much more to this world, this life I am meant to live and explore. It's up to me to actually act upon it. Taking action on something that is unknown felt complex. How can I act on something that doesn't yet exist? </p><br>
+			<p>In an office coding away day in day out, same routine for a year, I got a bit restless. Don't get me wrong I enjoy coding and I enjoyed my work friends and workplace. Many people are happy with that comfortable lifestyle, knowing that they will get a pay check at the end of the month - I was too! However, sitting at a desk every single day, just watching the time pass by - I just couldn't do it anymore.  I knew there was so much more to this world, this life I am meant to live and explore. It's up to me to actually act upon it. Taking action on something that is unknown felt complex. How can I act on something that doesn't yet exist? </p><br>
 			<div class="img-center">
 				<img class="float-left" src="resources/img/code.jpg">
 			</div>

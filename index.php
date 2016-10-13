@@ -17,6 +17,9 @@
 	<div class="map content-wrap section-margin google-maps">
 		<iframe src="https://www.google.com/maps/d/embed?mid=1zxh1CqOZ9lJNjOwRTC9ZZ2yvaDg" width="980" height="600"></iframe>
 	</div>
+	<div class="content-wrap section-margin">
+		<img src="resources/img/key.png" alt="key" style="width:50%">
+	</div>
 	<div class="hidden">
 		<h1>Travel Blog</h1>
 		<h2>South East Asia Back packers Travel Blog</h2>
