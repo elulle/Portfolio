@@ -479,6 +479,10 @@ img.float-right{
   background-color: #CBF6FF;
 }
 
+.key img{
+  width:50%;
+}
+
 /*Media quary*/
 @media only screen and (max-width: 769px) {
   h1 {
@@ -560,5 +564,8 @@ img.float-right{
     float: none;
     margin-right: 0;
     margin-bottom: 20px;
+  }
+  .key img{
+    width:100%;
   }
 }

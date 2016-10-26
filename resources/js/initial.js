@@ -31,11 +31,11 @@ $(document).ready(function(){
 			// 	    currentPic = myPic[myPic.length - 1];
 			// 	    currentText = myText[myText.length - 1];
 
-					// currentLocation = 'Da Nang - Vietnam';
-				    // currentPic ='http://photos.kay.com.vn/Photos/Blog/Images/danangkayvn.jpg';
+					currentLocation = 'Vang Vieng - Laos';
+				    currentPic ='http://belindaodea.com/wp-content/uploads/2016/03/5289.jpg';
 					    
-					currentLocation = 'Da Lat - Vietnam';
-					   currentPic ='http://cdn.asanteholidays.com/wp-content/uploads/2015/11/Da-Lat-Vietnam.jpg';
+					// currentLocation = 'Luang Prabang - Laos';
+					// currentPic ='http://jimmyeatsworld.com/wp-content/uploads/2014/04/P3140177-Edit.jpg';
 				    currentText = '';
 
 				    document.getElementById("actual-location").innerHTML = "<h1>"+currentLocation+"</h1>";
