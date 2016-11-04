@@ -31,11 +31,11 @@ $(document).ready(function(){
 			// 	    currentPic = myPic[myPic.length - 1];
 			// 	    currentText = myText[myText.length - 1];
 
-					currentLocation = 'Vang Vieng - Laos';
-				    currentPic ='http://belindaodea.com/wp-content/uploads/2016/03/5289.jpg';
+					currentLocation = 'Chiang Mai - Thailand';
+				    currentPic ='https://lonelyplanetimages.imgix.net/a/g/hi/t/cb3db4b94cdc8a8fff74e2fac7cd6cb8-chiang-mai.jpg?sharp=10&vib=20&w=1200';
 					    
-					// currentLocation = 'Luang Prabang - Laos';
-					// currentPic ='http://jimmyeatsworld.com/wp-content/uploads/2014/04/P3140177-Edit.jpg';
+					// currentLocation = 'Pai - Thailand';
+					// currentPic ='http://www.textbooktravel.com/wp-content/uploads/2015/07/Terraced-Rice-Field-in-Chiangmai-Thailand-Featured-Image.jpg';
 				    currentText = '';
 
 				    document.getElementById("actual-location").innerHTML = "<h1>"+currentLocation+"</h1>";

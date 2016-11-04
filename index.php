@@ -66,13 +66,13 @@
 				</div>
 				<div class="three-text">
 					<!-- <a href="#"> -->
-						<h3>Europe</h3>
+						<h3>A blog about not blogging</h3>
 						<!-- <p></p> -->
 					<!-- </a> -->
 				</div>
 				<div class="three-text">
 					<!-- <a href="#"> -->
-						<h3>India</h3>
+						<h3>No idea ?-?</h3>
 						<!-- <p></p> -->
 					<!-- </a> -->
 
