@@ -40,7 +40,7 @@
 			<h1>My blogs</h1>
 			<div class="circle-img">
 				<div class="circle">
-					<a href="blog_template.php">
+					<a href="first_blog.php">
 						<img src="resources/img/first.jpg">
 					</a>
 				</div>
@@ -59,7 +59,7 @@
 			</div>
 			<div class="three-wrapper">
 				<div class="three-text click">
-					<a href="blog_template.php"> 
+					<a href="first_blog.php"> 
 						<h3>My First Blog</h3>
 						<p>I'm not much of a writer. I don't really share much about my holidays / travels apart from sharing an album or two on Facebook.</p>
 					</a>
