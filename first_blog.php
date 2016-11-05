@@ -1,4 +1,5 @@
 <?php
+$headerImage = "first";
 $title = "My First Blog ... ...";
 $subTitle = "Time to disturb my current life";
 $travelDate = "Nearly 4 months into travelling";

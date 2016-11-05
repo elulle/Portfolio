@@ -44,11 +44,10 @@
 						<img src="resources/img/first.jpg">
 					</a>
 				</div>
-				<div class="circle disable">
-					<!-- <a href="#"> -->
-						<h2>Coming Soon</h2>
-						<img src="resources/img/riga.jpg">
-					<!-- </a> -->
+				<div class="circle">
+					<a href="blog_about_not_blogging.php">
+						<img src="resources/img/notblogging.jpg">
+					</a>
 				</div>
 				<div class="circle disable">
 					<!-- <a href="#"> -->
@@ -64,11 +63,11 @@
 						<p>I'm not much of a writer. I don't really share much about my holidays / travels apart from sharing an album or two on Facebook.</p>
 					</a>
 				</div>
-				<div class="three-text">
-					<!-- <a href="#"> -->
+				<div class="three-text click">
+					<a href="blog_about_not_blogging.php">
 						<h3>A blog about not blogging</h3>
-						<!-- <p></p> -->
-					<!-- </a> -->
+						<p>I had this great idea, well okay it wasn’t my idea. I just thought I would copy what thousands of travellers do</p>
+					</a>
 				</div>
 				<div class="three-text">
 					<!-- <a href="#"> -->

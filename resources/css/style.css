@@ -122,6 +122,9 @@ a:hover{
 .header#first{
   background: url('../img/first.jpg') no-repeat center center fixed ;
 }
+.header#noblog{
+  background: url('../img/notblogging.jpg') no-repeat center center fixed ;
+}
 
 .header .where{
 	position: absolute;
@@ -461,7 +464,19 @@ img.float-right{
 .img-center{
   text-align: center;
 }
-
+.img-left{
+  float:left;
+  width:40%;
+  margin-right: 5%;
+  margin-bottom: 40px;
+}
+.img-left img{
+  width:100%;
+  padding-bottom: 10px;
+}
+.img-left p{
+  text-align: left;
+}
 .alert{
   padding:30px;
   margin-bottom:30px;
@@ -469,7 +484,7 @@ img.float-right{
   border-radius: 5px;
   display: inline-block;
 }
-
+/*
 .alert a{
   color:#4d4d4d;
   padding:2px;
@@ -477,10 +492,28 @@ img.float-right{
 
 .alert a:hover{
   background-color: #CBF6FF;
-}
+}*/
 
 .key img{
   width:50%;
+}
+
+.grey-text{
+  color:#898989;
+  padding-bottom:30px;
+}
+
+.float-right{
+  float:right;
+}
+
+a.orange{
+  color:#ffa500;
+  text-decoration: none;
+}
+
+a.orange:hover{
+  font-weight: 700;
 }
 
 /*Media quary*/
@@ -566,6 +599,9 @@ img.float-right{
     margin-bottom: 20px;
   }
   .key img{
+    width:100%;
+  }
+  .img-left{
     width:100%;
   }
 }

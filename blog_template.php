@@ -2,7 +2,7 @@
 <!doctype html>
 <body>
 	<div class="header-wrapper section-margin">
-		<div class="header" id="first">
+		<div class="header" id="<?php echo $headerImage; ?>">
 			<div class="header-text">
 				<h1><?php echo $title; ?></h1>
 			</div>
@@ -14,13 +14,15 @@
 			<p class="grey-text"><?php echo $travelDate; ?></p>
 			<?php echo $content; ?>
 
-			<p>Next stop: <?php echo $nextStop; ?> </p>
+			<div><br><p>Next stop: <?php echo $nextStop; ?> </p><br></div>
 
-			<p class="grey-text float-right">Published on: <?php echo $publishDate; ?></p>
+			<div class="grey-text float-right">
+				<p>Published on: <?php echo $publishDate; ?></p>
+			</div>
 			
 			<div class="alert">
 				<p>Thank you for reading!</p><br>
-				<p>Feel free to leave me feedback and let me know what to include in my next blog<a href="contactme.php">here</a>. </p>
+				<p>Feel free to leave me feedback and let me know what to include in my next blog<a class="orange" href="contactme.php"> here</a>. </p>
 			</div>
 			
 			<div class="hidden">
