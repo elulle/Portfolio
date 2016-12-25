@@ -9,7 +9,7 @@ body {
 	background-color: #f5f5f5;
 }
 
-p {
+p, li {
 	font-size: 14px;
 	line-height: 1.6em;
 }
@@ -124,6 +124,9 @@ a:hover{
 }
 .header#noblog{
   background: url('../img/notblogging.jpg') no-repeat center center fixed ;
+}
+.header#fear{
+  background: url('../img/fear.jpg') no-repeat center center fixed ;
 }
 
 .header .where{

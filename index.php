@@ -52,7 +52,7 @@
 				<div class="circle disable">
 					<!-- <a href="#"> -->
 						<h2>Coming Soon</h2>
-						<img src="resources/img/test.jpg">
+						<img src="resources/img/fear.jpg">
 					<!-- </a> -->
 				</div>
 			</div>
@@ -71,8 +71,8 @@
 				</div>
 				<div class="three-text">
 					<!-- <a href="#"> -->
-						<h3>No idea ?-?</h3>
-						<!-- <p></p> -->
+						<h3>Fear</h3>
+						<p>Fear is everywhere, it stops you from doing what you want, stops your from reaching your full potential</p>
 					<!-- </a> -->
 
 				</div>

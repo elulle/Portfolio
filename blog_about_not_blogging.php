@@ -11,7 +11,7 @@ $content = "<p>I had this great idea, well okay it wasn’t my idea. I just thou
 		<p>I can give you knowledge of my travels but the experience will only ever remain with me. </p>
 	</div>
 <p>This blog is a lot easier to write than if I was writing about my travels, maybe this is just me ranting on or letting out my thoughts. I prefer this way of blogging than tying to replicate all the millions of blogs online about the South East Asia Loop. You should always do what you want to do, not what is expected of you. I know, so cliché but so true. How else will you grow and develop yourself if you do what others want you to do. This is your life to live, and only yours. Don’t get me wrong I am not saying you shouldn’t listen to people’s advice and opinions - please do! Learn and enrich yourself but always ask yourself what your opinion is on the matter, it is your choice and only your choice to decide whether to take on board others opinions or to let them go.  </p><br>
-<p>To anyone who wants to start blogging I would really suggest to blog about something that you want to and feel like writing about. It you are struggling to write something for your blog then you need to find a new topic.<br> </p>";
+<p>To anyone who wants to start blogging I would really suggest to blog about something that you want to and feel like writing about. If you are struggling to write something for your blog then you need to find a new topic.<br> </p>";
 $nextStop="Philippines";
 $publishDate = "6th November 2016";
 include('blog_template.php');

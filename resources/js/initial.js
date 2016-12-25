@@ -25,17 +25,19 @@ $(document).ready(function(){
 			// 	  	myDatabase=data.split("\n");
 			// 		myLocations = myDatabase[0].split(",");
 			// 		myPic = myDatabase[1].split(",");
-			// 		myText = myDatabase[2].split(",");
+			// 		myText = myDatabase[2].split(",");
 					
 			// 	    currentLocation = myLocations[myLocations.length - 1];
 			// 	    currentPic = myPic[myPic.length - 1];
 			// 	    currentText = myText[myText.length - 1];
 
-					currentLocation = 'Chiang Mai - Thailand';
-				    currentPic ='https://lonelyplanetimages.imgix.net/a/g/hi/t/cb3db4b94cdc8a8fff74e2fac7cd6cb8-chiang-mai.jpg?sharp=10&vib=20&w=1200';
-					    
-					// currentLocation = 'Pai - Thailand';
-					// currentPic ='http://www.textbooktravel.com/wp-content/uploads/2015/07/Terraced-Rice-Field-in-Chiangmai-Thailand-Featured-Image.jpg';
+					 currentLocation = 'QueensTown - New Zealand';
+				     currentPic ='http://wmphotos.com/wordpress/wp-content/uploads/2013/12/Queenstown-Bay.-New-Zealand-wmphotos.com_.jpg';
+				     // currentLocation = 'Auckland - New Zealand';
+				     // currentPic ='http://wikitravel.org/upload/shared//7/74/Auckland_Banner.jpg';
+
+					// currentLocation = '';
+					// currentPic ='';
 				    currentText = '';
 
 				    document.getElementById("actual-location").innerHTML = "<h1>"+currentLocation+"</h1>";
