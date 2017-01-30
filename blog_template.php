@@ -16,7 +16,7 @@
 
 			<div><br><p>Next stop: <?php echo $nextStop; ?> </p><br></div>
 
-			<div class="grey-text float-right">
+			<div class="grey-text">
 				<p>Published on: <?php echo $publishDate; ?></p>
 			</div>
 			

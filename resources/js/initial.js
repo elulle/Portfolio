@@ -30,11 +30,8 @@ $(document).ready(function(){
 			// 	    currentLocation = myLocations[myLocations.length - 1];
 			// 	    currentPic = myPic[myPic.length - 1];
 			// 	    currentText = myText[myText.length - 1];
-
-					 currentLocation = 'QueensTown - New Zealand';
-				     currentPic ='http://wmphotos.com/wordpress/wp-content/uploads/2013/12/Queenstown-Bay.-New-Zealand-wmphotos.com_.jpg';
-				     // currentLocation = 'Auckland - New Zealand';
-				     // currentPic ='http://wikitravel.org/upload/shared//7/74/Auckland_Banner.jpg';
+					 currentLocation = 'London';
+				     currentPic ='https://d3n8a8pro7vhmx.cloudfront.net/columbia107/pages/9/features/original/CUCL_London_picture.jpg?1416743320';
 
 					// currentLocation = '';
 					// currentPic ='';

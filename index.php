@@ -49,12 +49,17 @@
 						<img src="resources/img/notblogging.jpg">
 					</a>
 				</div>
-				<div class="circle disable">
-					<!-- <a href="#"> -->
+				<div class="circle">
+					<a href="fear.php">
+						<img src="resources/img/fear.jpg">
+					</a>
+				</div>
+				<!--<div class="circle disable">
+				 	<a href="fear.php">
 						<h2>Coming Soon</h2>
 						<img src="resources/img/fear.jpg">
-					<!-- </a> -->
-				</div>
+					</a>
+				</div> -->
 			</div>
 			<div class="three-wrapper">
 				<div class="three-text click">
@@ -69,11 +74,11 @@
 						<p>I had this great idea, well okay it wasn’t my idea. I just thought I would copy what thousands of travellers do</p>
 					</a>
 				</div>
-				<div class="three-text">
-					<!-- <a href="#"> -->
+				<div class="three-text click">
+					<a href="fear.php">
 						<h3>Fear</h3>
 						<p>Fear is everywhere, it stops you from doing what you want, stops your from reaching your full potential</p>
-					<!-- </a> -->
+					</a>
 
 				</div>
 			</div>

@@ -13,6 +13,9 @@ p, li {
 	font-size: 14px;
 	line-height: 1.6em;
 }
+ol{
+  padding-left:20px;
+}
 h1 {
 	font-size:26px;
 }
@@ -464,21 +467,29 @@ img.float-right{
     float: right;
     margin-left: 40px;
 }
-.img-center{
+.center{
   text-align: center;
 }
-.img-left{
-  float:left;
+.img{
   width:40%;
   margin-right: 5%;
   margin-bottom: 40px;
 }
-.img-left img{
+.img-left{
+  float:left;
+}
+.img-right{
+  float:right;
+}
+.img img{
   width:100%;
   padding-bottom: 10px;
 }
-.img-left p{
+.img p{
   text-align: left;
+}
+.inline{
+  display: inline-block;
 }
 .alert{
   padding:30px;
@@ -604,7 +615,10 @@ a.orange:hover{
   .key img{
     width:100%;
   }
-  .img-left{
+  .img{
     width:100%;
+  }
+  .inline{
+    display: block;
   }
 }
