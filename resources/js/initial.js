@@ -119,5 +119,147 @@ $(document).ready(function(){
 	    // $("#thank-you").fadeIn();
 	    // document.getElementById("landing-pg-img").src = "http://www.imagefully.com/wp-content/uploads/2015/05/Thank-You-For-Friend-On-His-Anniversary.jpg";
 	// });
+	// ANDigital 
+	var login = false;
+	$('#password').keyup(function () {
+	    if ($(this).val() === "andigital") {
+	    	login = true;
+	    } else login = false;
+	});
+	var submitPassword = document.getElementById('submit');
+	if(submitPassword !== null){
+		submitPassword.onclick = function() {
+		    if (login) {
+		        $(".password").hide();
+	    		$(".presentation").fadeIn();
+		    } else $('#message').html('You have entered the wrong password.');
+		};
+	};
+	$('.navigation li a').click(function () {
+	    $(this).addClass('active');
+	});
+
+	//presentation navigation
+
+	//First Slide
+	$('#startNext').click(function() {
+	    $('.startCurrent').removeClass('startCurrent').hide()
+	        .next().show().addClass('startCurrent');
+	    if ($('.startCurrent').hasClass('last')) {
+	        $('#next').attr('disabled', true);
+	    }
+	    $('#prev').attr('disabled', null);
+	});
+
+	$('#startPrev').click(function() {
+	    $('.startCurrent').removeClass('startCurrent').hide()
+	        .prev().show().addClass('startCurrent');
+	    if ($('.startCurrent').hasClass('first')) {
+	        $('#prev').attr('disabled', true);
+	    }
+	    $('#next').attr('disabled', null);
+	});
+
+	//Key Challenges
+
+	$('#challengeNext').click(function() {
+	    $('.challengeCurrent').removeClass('challengeCurrent').hide()
+	        .next().show().addClass('challengeCurrent');
+	    if ($('.challengeCurrent').hasClass('last')) {
+	        $('#next').attr('disabled', true);
+	    }
+	    $('#prev').attr('disabled', null);
+	});
+
+	$('#challengePrev').click(function() {
+	    $('.challengeCurrent').removeClass('challengeCurrent').hide()
+	        .prev().show().addClass('curchallengeCurrentrent');
+	    if ($('.challengeCurrent').hasClass('first')) {
+	        $('#prev').attr('disabled', true);
+	    }
+	    $('#next').attr('disabled', null);
+	});
+
+	//Professionalising Digital
+
+	$('#digitalNext').click(function() {
+	    $('.digitalCurrent').removeClass('digitalCurrent').hide()
+	        .next().show().addClass('digitalCurrent');
+	    if ($('.digitalCurrent').hasClass('last')) {
+	        $('#next').attr('disabled', true);
+	    }
+	    $('#prev').attr('disabled', null);
+	});
+
+	$('#digitalPrev').click(function() {
+	    $('.digitalCurrent').removeClass('digitalCurrent').hide()
+	        .prev().show().addClass('digitalCurrent');
+	    if ($('.digitalCurrent').hasClass('first')) {
+	        $('#prev').attr('disabled', true);
+	    }
+	    $('#next').attr('disabled', null);
+	});
+
+	//Flexible Resourcing
+
+	$('#resourcesNext').click(function() {
+	    $('.resourcesCurrent').removeClass('resourcesCurrent').hide()
+	        .next().show().addClass('resourcesCurrent');
+	    if ($('.resourcesCurrent').hasClass('last')) {
+	        $('#next').attr('disabled', true);
+	    }
+	    $('#prev').attr('disabled', null);
+	});
+
+	$('#resourcesPrev').click(function() {
+	    $('.resourcesCurrent').removeClass('resourcesCurrent').hide()
+	        .prev().show().addClass('resourcesCurrent');
+	    if ($('.resourcesCurrent').hasClass('first')) {
+	        $('#prev').attr('disabled', true);
+	    }
+	    $('#next').attr('disabled', null);
+	});
+
+	//Academy
+
+	$('#academyNext').click(function() {
+	    $('.academyCurrent').removeClass('academyCurrent').hide()
+	        .next().show().addClass('academyCurrent');
+	    if ($('.academyCurrent').hasClass('last')) {
+	        $('#next').attr('disabled', true);
+	    }
+	    $('#prev').attr('disabled', null);
+	});
+
+	$('#academyPrev').click(function() {
+	    $('.academyCurrent').removeClass('academyCurrent').hide()
+	        .prev().show().addClass('academyCurrent');
+	    if ($('.academyCurrent').hasClass('first')) {
+	        $('#prev').attr('disabled', true);
+	    }
+	    $('#next').attr('disabled', null);
+	});
+
+	//Results
+
+	$('#resultsNext').click(function() {
+	    $('.resultsCurrent').removeClass('resultsCurrent').hide()
+	        .next().show().addClass('resultsCurrent');
+	    if ($('.resultsCurrent').hasClass('last')) {
+	        $('#next').attr('disabled', true);
+	    }
+	    $('#prev').attr('disabled', null);
+	});
+
+	$('#resultsPrev').click(function() {
+	    $('.resultsCurrent').removeClass('resultsCurrent').hide()
+	        .prev().show().addClass('resultsCurrent');
+	    if ($('.resultsCurrent').hasClass('first')) {
+	        $('#prev').attr('disabled', true);
+	    }
+	    $('#next').attr('disabled', null);
+	});
+
+
 
 })

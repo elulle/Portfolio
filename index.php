@@ -14,6 +14,10 @@
 			</div>
 		</div>
 	</div>
+	<div>
+		<h2>Elina's Travels Around the World</h2>
+		<h3>June 2016 - January 2017</h3>
+	</div>
 	<div class="map content-wrap section-margin google-maps">
 		<iframe src="https://www.google.com/maps/d/embed?mid=1zxh1CqOZ9lJNjOwRTC9ZZ2yvaDg" width="980" height="600"></iframe>
 	</div>
